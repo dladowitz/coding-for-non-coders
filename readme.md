@@ -1,6 +1,5 @@
 # Coding for Non-Coders Curriculum
 
-## This is an H2 in a blockquote
 ## Topics
 * Front End
 * Back End
