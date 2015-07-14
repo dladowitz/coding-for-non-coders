@@ -49,6 +49,10 @@ hr {
     background-position: center;
 }
 
+.panel-title {
+    font-size: 25px;
+}
+
 .add-button {
     margin-left: 20px;
     width: 90px;
