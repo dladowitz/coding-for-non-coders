@@ -12,7 +12,7 @@ body {
 
 .business-header {
     height: 400px;
-    background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+    background: url('../images/dusty_wide_dark_2.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -20,14 +20,52 @@ body {
 }
 
 /* Customize the text color and shadow color and to optimize text legibility. */
+hr { 
+    margin: 40px;
+}
 
 .tagline {
     text-shadow: 0 0 10px #000;
     color: #fff;
+    font-size: 70px;
 }
 
+.title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.subtitle {
+    color: rgb(200, 200, 200);
+}
 .img-center {
     margin: 0 auto;
+}
+
+.cat-gif {
+    height: 250px;
+    background-size: cover;
+    border-radius: 10%;
+    background-position: center;
+}
+
+.add-button {
+    margin-left: 20px;
+    width: 90px;
+}
+
+.vote {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.up:hover { 
+    background-color: chartreuse;
+}
+
+.down:hover { 
+    background-color: crimson;
 }
 
 footer {
