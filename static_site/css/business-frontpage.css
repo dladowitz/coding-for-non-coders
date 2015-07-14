@@ -60,6 +60,11 @@ hr {
     text-align: center;
 }
 
+.score {
+    font-size: 25px;
+    margin-right: 15px;
+}
+
 .up:hover { 
     background-color: chartreuse;
 }
