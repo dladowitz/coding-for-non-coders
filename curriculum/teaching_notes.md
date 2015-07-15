@@ -38,11 +38,11 @@
 #### Directory and Git Setup
 * setup folders and pull resource repo
 
-#### HTML, CSS and Javascript
+#### HTML && Structure
 * Create html file and view
 * Create empty assets folders
 * Copy in html from resource file
-* What is happening?
+* What is happening? Html elements:
 	* Comments
 	* Elements
 	* Tags
@@ -50,7 +50,27 @@
 	* Classes 
 	* IDs
 	* Forms
-		
+	
+#### CSS
+* Copy CSS files and view
+* Copy images and view 
+* Copy fonts
+* Review 
+	* Selectors
+	* Properties
+	* Values
+	* Declaration
+* What is happening?	
+	* Look at the styles on .title
+	* Look at voting button colors
+	* Where are images coming from	
+
+#### Javascript 
+* Notice the upvote buttons don't work
+* Nor does the hamburger dropdown
+* Go over score.js
+* Explain what JQuery is doing
+
 
 
 

@@ -12,7 +12,7 @@
 	* [Catster on Trello](https://trello.com/b/A8z9nktd/catster) 
 	* Estimate time needs for each task
 
-### 3. Git && Github
+### 3. Git & Github
 * [What is Git](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
 	*  A version control and collaboration tool 
 	* "A foolish or worthless person" - Merriam Webster	 	
@@ -31,7 +31,7 @@
 * **rm**: remove
 
 ### 5. Develop static site
-#### Directory && Git Setup
+#### Directory & Git Setup
 * Go to your home directory: 
  	* **cd ~**
 * make a directory called 'repos'
@@ -50,7 +50,7 @@
 	* **git init**
 * Open Sublime text
 
-#### HTML && Strucutre
+#### HTML & Strucutre
 * We are going to recreate [resources > static-site](https://github.com/dladowitz/coding-for-non-coders/tree/master/resources/static_site). 
 * We'll call this *'The Resource Site'* for references.
 * Let's call the new site *'The Working Site'*
@@ -61,6 +61,46 @@
 * Delete 'Hello World' from Working site
 * Copy contents of index.html in the Resource site to the index.html file in the Working working site.
 * Refresh the browser. What's going on?
+	 * Why is some text bigger?
+	 * Why are some underlined
+	 * Why are some buttons
+
+#### CSS
+* Use finder to copy the three files in the 'css' folder of the Resource site into the 'css' folder of your Working site
+* Refresh the browser
+* Also copy the file in the images folder 'dusty_wide_dark_2.jpg'
+* Refresh the browser
+* Notice the Voting button have squares
+* Copy in the files from the 'fonts' folder and refresh
+* [CSS Syntax](http://www.w3schools.com/css/css_syntax.asp)
+* Whats going on?
+	* How is the word 'Catster' getting sytled? 
+	* How are voting buttons being colored
+	* Where the images coming from?
+* Lets look at the [Chrome Inspector Tool](https://developer.chrome.com/devtools)
+
+#### Javascript & JQuery
+* Use finder to copy the files in the 'js' folder from the Resource site to the Working site
+* Look at the voting buttons
+
+6. ### Push to Github & Deploy (The Interwebs)
+* Go to [Github.com](https://github.com/) and create a new repository
+* Copy the repository endpoint
+* Go back to your Command Line (Make sure you are in the catster_static directory)
+* Add repository endpoint to git as a remote
+	* **git remote add origin https://github.com/dladowitz/catster_static.git** (make sure to use your endpoint, not mine)
+* Add your changes to git 
+	* **git add .**
+* Commit your changes to git
+	* **git commit -m "finishing static site"** 
+* Push to github
+	* **git push origin master**
+* Go back to github and verify your code is up there
+* Create a [paperplane.io](https://www.paperplane.io) account
+* Create a site linked to your github repository	
+
+
+
 
 
 
