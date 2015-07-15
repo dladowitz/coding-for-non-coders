@@ -55,7 +55,7 @@
 * We'll call this *'The Resource Site'* for references.
 * Let's call the new site *'The Working Site'*
 * We'll copy each component in one by one and see what it adds. 
-* Inside of Sublime create **index.html**
+* Inside of [Sublime Text](http://www.sublimetext.com/3) create **index.html**
 	* Add 'Hello World' to the file and then open with the Chrome browser  
 * Create folders named 'css', 'fonts', 'images', and 'js'
 * Delete 'Hello World' from Working site
