@@ -83,7 +83,7 @@
 * Use finder to copy the files in the 'js' folder from the Resource site to the Working site
 * Look at the voting buttons
 
-6. ### Push to Github & Deploy (The Interwebs)
+### 6. Push to Github & Deploy (The Interwebs)
 * Go to [Github.com](https://github.com/) and create a new repository
 * Copy the repository endpoint
 * Go back to your Command Line (Make sure you are in the catster_static directory)
