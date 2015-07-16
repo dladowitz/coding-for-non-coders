@@ -28,6 +28,7 @@
 
 ### 4. Command Line
 * [Command Line Basics](http://linuxcommand.org/learning_the_shell.php)
+* **pwd**: print working directory
 * **cd**: change directory
 * **ls**: list
 * **mkdir** : make directory
