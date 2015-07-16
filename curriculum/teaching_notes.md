@@ -42,7 +42,7 @@
 * Create html file and view
 * Create empty assets folders
 * Copy in html from resource file
-* What is happening? Html elements:
+* What is happening? [Html elements](http://www.turnwall.com/articles/all-about-relative-absolute-links/):
 	* Comments
 	* Elements
 	* Tags
