@@ -43,7 +43,7 @@
 * change into the directory called 'repos'
 	* **cd repos**
 * clone a repo from Gitub (this holds resources we'll need for the class)
-	* **git pull https://github.com/dladowitz/coding-for-non-coders.git** 
+	* **git clone https://github.com/dladowitz/coding-for-non-coders.git** 
 * Look at the contents of the directory	
 	* **ls coding-for-non-coders**
 * make a directory called 'catster_static' (this is the frst site we'll create)
