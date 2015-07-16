@@ -1,3 +1,5 @@
+### 0.  Agile
+* [What is Agile](http://4.bp.blogspot.com/-aFcVYuTXO6Y/VS2tecfG5KI/AAAAAAAAAHM/oD6Wy_Cn1iE/s1600/Agile_Development_Process.png) Spoiler, I don't really know. 
 ### 1. Standup
 * [Daily check in and progress report](https://en.wikipedia.org/wiki/Stand-up_meeting)
 
