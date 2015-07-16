@@ -100,8 +100,6 @@
 * Create a site linked to your github repository	
 
 ## You did it! It's Hi-Five time. 
-![Smaller icon](https://s-media-cache-ak0.pinimg.com/originals/91/f1/a3/91f1a31ba9edbbacd9243aa2e8ab1d7b.gif "Hi Five")
-
 
 
 
