@@ -1,3 +1,7 @@
+### Intros and Overview
+* What are we doing here today
+* What is your experience with front end web development(html/css/javascript) and back end web development(rails, node, python, java)
+
 ### 0.  Agile
 * [What is Agile](http://4.bp.blogspot.com/-aFcVYuTXO6Y/VS2tecfG5KI/AAAAAAAAAHM/oD6Wy_Cn1iE/s1600/Agile_Development_Process.png) (Actually, I don't really know)
 
