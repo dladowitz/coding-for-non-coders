@@ -1,5 +1,5 @@
 ## Teaching Notes
-### -1 Teacher Introduction and Background
+### Teacher Introduction and Background
 
 ### 0 Agile
 * Old way of creating boxed software
