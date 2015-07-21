@@ -1,5 +1,9 @@
 ## Teaching Notes
 
+### 0 Agile
+* Old way of creating boxed software
+* Today we are simulating 2 sprints of development, a Static Site and a Rails App
+
 ### 1 Standup
 * What is your experience with web developement? 
 	* Front end, Back End, Mobile, Databases?
