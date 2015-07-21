@@ -63,8 +63,8 @@
 	* Add 'Hello World' to the file and then open with the Chrome browser  
 * Create folders named 'css', 'fonts', 'images', and 'js'
 * Delete the text 'Hello World' from Working site index.html file.
-* Open the Resource site in Sublime Text. 
-* Copy contents of index.html in the Resource site to the index.html file in the Working working site.
+* Copy contents of [index.html in the Resource site](https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/static_site/index.html) to the index.html file in the Working working site.
+	* Hint: use the 'raw button' to make it easier to copy 
 * Refresh the browser. What's going on?
 	 * Why is some text bigger?
 	 * Why are some underlined
