@@ -62,7 +62,8 @@
 * Inside of [Sublime Text](http://www.sublimetext.com/3) create **index.html**
 	* Add 'Hello World' to the file and then open with the Chrome browser  
 * Create folders named 'css', 'fonts', 'images', and 'js'
-* Delete 'Hello World' from Working site
+* Delete the text 'Hello World' from Working site index.html file.
+* Open the Resource site in Sublime Text. 
 * Copy contents of index.html in the Resource site to the index.html file in the Working working site.
 * Refresh the browser. What's going on?
 	 * Why is some text bigger?
