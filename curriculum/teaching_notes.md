@@ -87,7 +87,6 @@
 
 
 
-### Things that need to be setup on computer
+### Things that need to be setup on workstation
 * Git
 * Sublime Text
-* Terminal Colors
