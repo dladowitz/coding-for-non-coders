@@ -40,7 +40,7 @@
 	* Storage, Sharing, Pull Requests and OctCats
 
 ### 4 Command Line
-* Demo cd, ls, .., ., mkdir
+* Demo cd, ls, .., ., & mkdir
 
 ### 5 Develop Static Site
 #### Directory and Git Setup
