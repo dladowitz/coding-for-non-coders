@@ -1,5 +1,8 @@
 ## Teaching Notes
-### Teacher Introduction and Background
+### Introduction
+* Who is teaching
+* Background
+* What are we doing here today
 
 ### 0 Agile
 * Old way of creating boxed software
