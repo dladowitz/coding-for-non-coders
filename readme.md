@@ -9,7 +9,7 @@
 * <a href="https://en.wikipedia.org/wiki/Stand-up_meeting" target="_blank">Daily check in and progress report</a>
 
 ### 2. Sprint Planning
-* <a href="http://scrummethodology.com/scrum-meetings">Plan and Commit to tasks</a>
+* <a href="http://scrummethodology.com/scrum-meetings" target="_blank">Plan and Commit to tasks</a>
 * Project Managment Tools: 	<a href="http:www.trello.com" target="_blank">Trello</a>, <a href="https://www.atlassian.com/software/jira" target="_blank">Jira</a>, <a href="http://www.pivotaltracker.com/" target="_blank">Pivotal Tracker</a>
 * View requirements from Product Manager 
 	* Formats might include PNG, PSD, written specifications, or wireframes
