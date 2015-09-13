@@ -3,7 +3,7 @@
 * What is your experience with front end web development(html/css/javascript) and back end web development(rails, node, python, java)
 
 ### 0.  Agile
-* <a href="http://4.bp.blogspot.com/-aFcVYuTXO6Y/VS2tecfG5KI/AAAAAAAAAHM/oD6Wy_Cn1iE/s1600/Agile_Development_Process.png">What is Agile?</a> (Actually, I don't really know)
+* <a href="http://4.bp.blogspot.com/-aFcVYuTXO6Y/VS2tecfG5KI/AAAAAAAAAHM/oD6Wy_Cn1iE/s1600/Agile_Development_Process.png" target="_blank">What is Agile?</a> (Actually, I don't really know)
 
 ### 1. Standup
 * <a href="https://en.wikipedia.org/wiki/Stand-up_meeting">Daily check in and progress report</a>
