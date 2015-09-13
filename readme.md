@@ -6,32 +6,32 @@
 * <a href="http://4.bp.blogspot.com/-aFcVYuTXO6Y/VS2tecfG5KI/AAAAAAAAAHM/oD6Wy_Cn1iE/s1600/Agile_Development_Process.png" target="_blank">What is Agile?</a> (Actually, I don't really know)
 
 ### 1. Standup
-* <a href="https://en.wikipedia.org/wiki/Stand-up_meeting">Daily check in and progress report</a>
+* <a href="https://en.wikipedia.org/wiki/Stand-up_meeting" target="_blank">Daily check in and progress report</a>
 
 ### 2. Sprint Planning
 * <a href="http://scrummethodology.com/scrum-meetings">Plan and Commit to tasks</a>
-* Project Managment Tools: 	<a href="http:www.trello.com">Trello</a>, <a href="https://www.atlassian.com/software/jira">Jira</a>, <a href="http://www.pivotaltracker.com/">Pivotal Tracker</a>
+* Project Managment Tools: 	<a href="http:www.trello.com" target="_blank">Trello</a>, <a href="https://www.atlassian.com/software/jira" target="_blank">Jira</a>, <a href="http://www.pivotaltracker.com/" target="_blank">Pivotal Tracker</a>
 * View requirements from Product Manager 
 	* Formats might include PNG, PSD, written specifications, or wireframes
-	* Look in <a href="https://github.com/dladowitz/coding-for-non-coders/tree/master/mockups/static_site">mockups > static_site</a>
+	* Look in <a href="https://github.com/dladowitz/coding-for-non-coders/tree/master/mockups/static_site" target="_blank">mockups > static_site</a>
 
 * Break requirement into tasks and add into tracking system
-	* [Catster on Trello](https://trello.com/b/A8z9nktd/catster) 
+	* <a href="https://trello.com/b/A8z9nktd/catster" target="_blank">Catster on Trello</a>
 	* Estimate time needs for each task
 
 ### 3. Git & Github
-* [What is Git](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
+* <a href="http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1" target="_blank">What is Git</a>
 	*  A version control and collaboration tool 
 	* "A foolish or worthless person" - Merriam Webster	 	
-* [What is GitHub](https://github.com/)
+* <a href="https://github.com/" target="_blank">What is GitHub</a>
 	* Storage / Backup
 	* Collaboration
 	* Code Review
-	* [Octocats](https://octodex.github.com/)
+	* <a href="https://octodex.github.com/" target="_blank">Octocats</a>
 * Lets create a Github account
 
 ### 4. Command Line
-* [Command Line Basics](http://linuxcommand.org/learning_the_shell.php)
+* <a href="http://linuxcommand.org/learning_the_shell.php" target="_blank">Command Line Basics</a>
 * **pwd**: print working directory
 * **cd**: change directory
 * **ls**: list
@@ -59,15 +59,15 @@
 * Open Sublime text
 
 #### HTML & Strucutre
-* We are going to recreate [resources > static-site](https://github.com/dladowitz/coding-for-non-coders/tree/master/resources/static_site). 
+* We are going to recreate <a href="https://github.com/dladowitz/coding-for-non-coders/tree/master/resources/static_site" target="_blank">resources > static-site</a>. 
 * We'll call this *'The Resource Site'* for references.
 * Let's call the new site *'The Working Site'*
 * We'll copy each component in one by one and see what it adds. 
-* Inside of [Sublime Text](http://www.sublimetext.com/3) create **index.html**
+* Inside of <a href="http://www.sublimetext.com/3" target="_blank">Sublime Text</a> create **index.html**
 	* Add 'Hello World' to the file and then open with the Chrome browser  
 * Create folders named 'css', 'fonts', 'images', and 'js'
 * Delete the text 'Hello World' from Working site index.html file
-* Copy contents of [index.html in the Resource site](https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/static_site/index.html) to the index.html file in the Working working site.
+* Copy contents of <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/static_site/index.html" target="_blank">index.html in the Resource site</a> to the index.html file in the Working working site.
 	* Hint: use the 'raw button' to make it easier to copy 
 * Refresh the browser. What's going on?
 	 * Why is some text bigger?
@@ -82,19 +82,19 @@
 * Refresh the browser
 * Notice the Voting button have squares
 * Copy in the files from the 'fonts' folder and refresh
-* [CSS Syntax](http://www.w3schools.com/css/css_syntax.asp)
+* <a href="http://www.w3schools.com/css/css_syntax.asp" target="_blank">CSS Syntax</a>
 * Whats going on?
 	* How is the word 'Catster' getting sytled? 
 	* How are voting buttons being colored
 	* Where the images coming from?
-* Lets look at the [Chrome Inspector Tool](https://developer.chrome.com/devtools)
+* Lets look at the <a href="https://developer.chrome.com/devtools" target="_blank">Chrome Inspector Tool</a>
 
 #### Javascript & JQuery
 * Use finder to copy the files in the 'js' folder from the Resource site to the Working site
 * Look at the voting buttons
 
 ### 6. Push to Github & Deploy (The Interwebs)
-* Go to [Github.com](https://github.com/) and create a new repository
+* Go to <a href="https://github.com/" target="_blank">Github.com</a> and create a new repository
 * Copy the repository endpoint
 * Go back to your Command Line (Make sure you are in the catster_static directory)
 * Add repository endpoint to git as a remote
@@ -111,18 +111,3 @@
 
 ## You did it! It's Hi-Five time. 
 ![Smaller icon](https://s-media-cache-ak0.pinimg.com/originals/91/f1/a3/91f1a31ba9edbbacd9243aa2e8ab1d7b.gif "Hi Five")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
