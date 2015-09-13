@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root to: "cat_gifs#index"
+  resources :cat_gifs
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
