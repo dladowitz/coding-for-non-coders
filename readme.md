@@ -106,7 +106,7 @@
 * Push to github
 	* **git push origin master**
 * Go back to github and verify your code is up there
-* Create a [paperplane.io](https://www.paperplane.io) account
+* Create a <a href="http://paperplanes.io/" target="_blank">Paperplanes.io</a> account
 * Create a site linked to your github repository	
 
 ## You did it! It's Hi-Five time. 
