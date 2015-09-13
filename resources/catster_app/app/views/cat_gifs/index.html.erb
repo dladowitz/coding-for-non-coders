@@ -45,7 +45,7 @@
               <button type="button" class="btn btn-default btn-lg up">
                 <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span> UpVote
               </button>
-              <button type="button" class="btn btn-default btn-lg down1">
+              <button type="button" class="btn btn-default btn-lg down">
                 <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span> DownVote
               </button>
             </div>
@@ -54,15 +54,16 @@
 
         <div class="col-sm-4">
           <button type="button" class="btn btn-primary btn-lg right">
-           More Cats
+           See More Cats
            <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+         </button>
+          <button type="button" class="btn btn-success btn-lg right">
+           Add A Cat
          </button>
        </div>
 
      </div>
      <!-- /.row -->
-
-
 
      <hr>
 
@@ -96,31 +97,6 @@
     </footer>
   </div>
 
-
-  <table>
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Url</th>
-        <th>Score</th>
-        <th colspan="3"></th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <% @cat_gifs.each do |cat_gif| %>
-      <tr>
-        <td><%= cat_gif.title %></td>
-        <td><%= cat_gif.url %></td>
-        <td><%= cat_gif.score %></td>
-        <td><%= link_to 'Show', cat_gif %></td>
-        <td><%= link_to 'Edit', edit_cat_gif_path(cat_gif) %></td>
-        <td><%= link_to 'Destroy', cat_gif, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-      <% end %>
-    </tbody>
-  </table>
-
   <br>
 
-  <%= link_to 'New Cat gif', new_cat_gif_path %>
+
