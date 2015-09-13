@@ -66,7 +66,7 @@
 * Inside of [Sublime Text](http://www.sublimetext.com/3) create **index.html**
 	* Add 'Hello World' to the file and then open with the Chrome browser  
 * Create folders named 'css', 'fonts', 'images', and 'js'
-* Delete the text 'Hello World' from Working site index.html file.
+* Delete the text 'Hello World' from Working site index.html file
 * Copy contents of [index.html in the Resource site](https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/static_site/index.html) to the index.html file in the Working working site.
 	* Hint: use the 'raw button' to make it easier to copy 
 * Refresh the browser. What's going on?
@@ -77,6 +77,7 @@
 #### CSS
 * Use finder to copy the three files in the 'css' folder of the Resource site into the 'css' folder of your Working site
 * Refresh the browser
+	*  Hint: Open two finder windows if you are getting confused about which folder you are in 
 * Also copy the file in the images folder 'dusty_wide_dark_2.jpg'
 * Refresh the browser
 * Notice the Voting button have squares
