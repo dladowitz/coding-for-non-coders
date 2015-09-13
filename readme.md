@@ -3,17 +3,17 @@
 * What is your experience with front end web development(html/css/javascript) and back end web development(rails, node, python, java)
 
 ### 0.  Agile
-* [What is Agile](http://4.bp.blogspot.com/-aFcVYuTXO6Y/VS2tecfG5KI/AAAAAAAAAHM/oD6Wy_Cn1iE/s1600/Agile_Development_Process.png) (Actually, I don't really know)
+* <a href="http://4.bp.blogspot.com/-aFcVYuTXO6Y/VS2tecfG5KI/AAAAAAAAAHM/oD6Wy_Cn1iE/s1600/Agile_Development_Process.png">What is Agile?</a> (Actually, I don't really know)
 
 ### 1. Standup
-* [Daily check in and progress report](https://en.wikipedia.org/wiki/Stand-up_meeting)
+* <a href="https://en.wikipedia.org/wiki/Stand-up_meeting">Daily check in and progress report</a>
 
 ### 2. Sprint Planning
-* [Plan and Commit to tasks](http://scrummethodology.com/scrum-meetings/)
-* Project Managment Tools: 	[Trello](http:www.trello.com), [Jira](https://www.atlassian.com/software/jira), [Pivotal Tracker](http://www.pivotaltracker.com/)
+* <a href="http://scrummethodology.com/scrum-meetings">Plan and Commit to tasks</a>
+* Project Managment Tools: 	<a href="http:www.trello.com">Trello</a>, <a href="https://www.atlassian.com/software/jira">Jira</a>, <a href="http://www.pivotaltracker.com/">Pivotal Tracker</a>
 * View requirements from Product Manager 
 	* Formats might include PNG, PSD, written specifications, or wireframes
-	* Look in [mockups > static_site](https://github.com/dladowitz/coding-for-non-coders/tree/master/mockups/static_site)
+	* Look in <a href="https://github.com/dladowitz/coding-for-non-coders/tree/master/mockups/static_site">mockups > static_site</a>
 
 * Break requirement into tasks and add into tracking system
 	* [Catster on Trello](https://trello.com/b/A8z9nktd/catster) 
