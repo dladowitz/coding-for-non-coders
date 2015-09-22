@@ -23,12 +23,20 @@
             <h1 class="panel-title">Get a new cat in your inbox daily</h3>
             </div>
             <div class="panel-body">
-              <form class="form-inline text-center">
+              <%= form_for @user, html: {class: "form-inline text-center"} do |f| %>
+                <div class="form-group">
+                  <%= f.text_field :email_address, class: "form-control input-lg", size: 50, placeholder: "david@catster.com" %>
+                </div>  
+                <%= f.submit "Signup", class: "btn btn-primary btn-lg signup-button" %>
+              <% end %>
+
+
+              <!-- <form class="form-inline text-center">
                 <div class="form-group">
                   <input type="email" class="form-control input-lg" size="50" id="cat-url" placeholder="david@catster.com">
                 </div>
                 <button type="submit" class="btn btn-primary btn-lg signup-button">Signup</button>
-              </form>
+              </form> -->
             </div>
           </div>
         </div>
@@ -38,28 +46,27 @@
 
       <div class="row">
         <%- @cat_gifs.each do |cat_gif| %>
-          <div class="col-sm-4">
+          <div class="col-sm-4" id=<%= cat_gif.id %>>
             <div class="cat-gif img-circle img-center" style="background-image:url(<%= cat_gif.url %>)"></div>
             <div class="vote">
-              <span class="score">0</span>
-              <button type="button" class="btn btn-default btn-lg up">
-                <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span> UpVote
-              </button>
-              <button type="button" class="btn btn-default btn-lg down">
-                <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span> DownVote
-              </button>
+              <span class="score">
+                <%= cat_gif.score || 0 %>
+              </span>
+              <%= link_to"/cat_gifs/#{cat_gif.id}/upvote", class: "btn btn-default btn-lg up" do %>
+                <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+                UpVote
+              <% end %>
+                
+              <%= link_to "/cat_gifs/#{cat_gif.id}/downvote", class: "btn btn-default btn-lg down" do %>
+                <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+                DownVote
+              <% end %>
             </div>
           </div>
         <% end %>
 
         <div class="col-sm-4">
-          <button type="button" class="btn btn-primary btn-lg right">
-           See More Cats
-           <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
-         </button>
-          <button type="button" class="btn btn-success btn-lg right">
-           Add A Cat
-         </button>
+          <%= link_to "Add a Cat", new_cat_gif_path, class: "btn btn-success btn-lg right" %>
        </div>
 
      </div>

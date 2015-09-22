@@ -1,15 +1,26 @@
 class CatGifsController < ApplicationController
-  before_action :set_cat_gif, only: [:show, :edit, :update, :destroy]
+  before_action :set_cat_gif, only: [:show, :upvote, :downvote, :edit, :update, :destroy]
 
   # GET /cat_gifs
   # GET /cat_gifs.json
   def index
     @cat_gifs = CatGif.all
+    @user = User.new
   end
 
   # GET /cat_gifs/1
   # GET /cat_gifs/1.json
   def show
+  end
+
+  def upvote
+    @cat_gif.increment!(:score)
+    redirect_to cat_gifs_path(anchor: "none") #seems to work because the id is actually missing from the page
+  end
+
+  def downvote
+    @cat_gif.decrement!(:score)
+    redirect_to cat_gifs_path(anchor: "none") #seems to work because the id is actually missing from the page
   end
 
   # GET /cat_gifs/new
