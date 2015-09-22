@@ -5,7 +5,7 @@ class CatGifsController < ApplicationController
   # GET /cat_gifs.json
   def index
     @cat_gifs = CatGif.all
-    @user = User.new
+    @signup = Signup.new
   end
 
   # GET /cat_gifs/1

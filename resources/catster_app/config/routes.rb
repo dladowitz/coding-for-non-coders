@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  resources :users, only: [:index, :create]
+  resources :signups, only: [:index, :create]
+  resources :contact, only: [:index]
 
   root to: "cat_gifs#index"
+
   resources :cat_gifs do 
     member do 
       get "upvote"
