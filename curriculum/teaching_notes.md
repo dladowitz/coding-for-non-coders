@@ -40,7 +40,9 @@
 	* Storage, Sharing, Pull Requests and OctCats
 
 ### 4 Command Line
+* Have students keep the finder open
 * Demo cd, ls, .., ., & mkdir
+
 
 ### 5 Develop Static Site
 #### Directory and Git Setup
@@ -80,7 +82,7 @@
 * Explain what JQuery is doing
 
 
-
+### 7 Ruby 
 
 
 

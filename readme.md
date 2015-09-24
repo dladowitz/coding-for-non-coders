@@ -111,3 +111,9 @@
 
 ## You did it! It's Hi-Five time. 
 ![Smaller icon](https://s-media-cache-ak0.pinimg.com/originals/91/f1/a3/91f1a31ba9edbbacd9243aa2e8ab1d7b.gif "Hi Five")
+
+
+### 7. Lets learn some Ruby
+* We'll use one of <a href="http://railsbridge.org/" target="_blank">Railsbridge's</a> tutorials. They are a super good organization and a great place to continue learning. 
+* Open up <a href="http://docs.railsbridge.org/ruby/ruby" target="_blank">Ruby for Beginners</a>.
+* We won't go over all the sections of the tutorial.
