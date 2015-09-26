@@ -35,7 +35,16 @@
 	* Collaboration
 	* Code Review
 	* <a href="https://octodex.github.com/" target="_blank">Octocats</a>
-* Lets create a Github account
+	* Create a Github account
+
+<br>
+
+* Lets talk about where we store stuff
+![Smaller icon](https://www.lucidchart.com/publicSegments/view/ea7d3a3d-916a-4f1a-b7d4-988c78d5b1c5/image.png =550x)
+<br>
+<a href="https://www.lucidchart.com/documents/view/2499db8b-b11a-4cb0-9a1d-67de7bbd84d6" target="_blank">View Larger</a> 	
+
+ 	
 
 ### 4. Command Line
 * <a href="http://linuxcommand.org/learning_the_shell.php" target="_blank">Command Line Basics</a>
@@ -102,6 +111,7 @@
 #### ___D - Javascript & JQuery
 * Use finder to copy the files in the 'js' folder from the Resource site to the Working site
 * Look at the voting buttons
+* Notice that votes aren't saved when the browser is refreshed. Why not? What do we need? 
 
 #### ___E - Push to Github & Deploy (The Interwebs)
 * Go to <a href="https://github.com/" target="_blank">Github.com</a> and create a new repository
@@ -193,7 +203,7 @@ more
 
 
 #### It's Hi-Five time. 
-![Smaller icon](https://s-media-cache-ak0.pinimg.com/originals/91/f1/a3/91f1a31ba9edbbacd9243aa2e8ab1d7b.gif "Hi Five")
+![Smaller icon](https://s-media-cache-ak0.pinimg.com/originals/91/f1/a3/91f1a31ba9edbbacd9243aa2e8ab1d7b.gif =550x)
 <br>
 <br>
 <br>
@@ -271,7 +281,7 @@ more
 
 
 #### Now refresh the page. 
-![Smaller icon](https://s-media-cache-ak0.pinimg.com/236x/59/a4/09/59a40966a86fe5a046193763380adfaf.jpg "Damn Gina")
+![Smaller icon](https://s-media-cache-ak0.pinimg.com/236x/59/a4/09/59a40966a86fe5a046193763380adfaf.jpg =550x)
 
 * Add some more cat gifs before we move on
 
@@ -281,6 +291,14 @@ more
 #### ___D -  Make voting work (amd fix the homepage)
 * Try going to 'localhost:3000'
 * Go back to 'localhost:3000/cat_gifs' and try to UpVote or DownVote a gif
+<br>
+* Lets talk about the MVC Pattern first (Model View Controller)
+![Smaller icon](http://betterexplained.com/wp-content/uploads/rails/mvc-rails.png =550x)
+<br>
+<a href="https://www.lucidchart.com/documents/view/2499db8b-b11a-4cb0-9a1d-67de7bbd84d6" target="_blank">View Larger</a> 
+
+<br>
+
 * We need to update the routes file (config>routes.rb) with a new code. 
 	* <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/config/routes.rbs" target=_"blank">find the new routes.rb on github</a> 
 * Now try voting and the homepage. 
@@ -395,7 +413,7 @@ more
 <br>
 more
 #### You did it again!
-![Smaller icon](http://media.tumblr.com/0786f2164b1e90fe145115010e41cf04/tumblr_inline_mmfnmkNA2P1qz4rgp.gif "Damn Gina")
+![](http://media.tumblr.com/0786f2164b1e90fe145115010e41cf04/tumblr_inline_mmfnmkNA2P1qz4rgp.gif)
 
 <br>
 
@@ -455,6 +473,10 @@ more
 	* Try executing a SQL query
 		* **SELECT * FROM cat_gifs WHERE ID>1**
 * <a href="hhttp://www.w3schools.com/sql/sql_select.asp" target="_blank">SQL tutorials</a>
+
+#### ___B - MySQL
+#### ___C - PostgreSQL
+
 
 
 
