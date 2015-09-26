@@ -119,7 +119,80 @@
 * Create a <a href="http://paperplanes.io/" target="_blank">Paperplanes.io</a> account
 * Create a site linked to your github repository	
 
-#### You did it! It's Hi-Five time. 
+#### You did it! 
+Scroll down
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+v<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+
+
+
+#### It's Hi-Five time. 
 ![Smaller icon](https://s-media-cache-ak0.pinimg.com/originals/91/f1/a3/91f1a31ba9edbbacd9243aa2e8ab1d7b.gif "Hi Five")
 <br>
 <br>
@@ -196,7 +269,8 @@
 * We'll need to create two new files in app>assets>stylesheets (**bootstrap.css** and **business-frontpage.css**)
 * Then copy the code from <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/assets/stylesheets/bootstrap.css" target=_"blank">bootstrap.css on github</a> and <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/assets/stylesheets/business-frontpage.css" target=_"blank">business-frontpage.css on github</a> into each file respectively.  
 
-#### ___D -  Now refresh the page. 
+
+#### Now refresh the page. 
 ![Smaller icon](https://s-media-cache-ak0.pinimg.com/236x/59/a4/09/59a40966a86fe5a046193763380adfaf.jpg "Damn Gina")
 
 * Add some more cat gifs before we move on
@@ -204,7 +278,7 @@
 <br>
 
 
-#### ___E -  Make voting work (amd fix the homepage)
+#### ___D -  Make voting work (amd fix the homepage)
 * Try going to 'localhost:3000'
 * Go back to 'localhost:3000/cat_gifs' and try to UpVote or DownVote a gif
 * We need to update the routes file (config>routes.rb) with a new code. 
@@ -217,7 +291,7 @@
 	
 <br>
 
-#### ___F - Push to Github and Delpoy to Heroku
+#### ___E - Push to Github
 * In the Termminal add and commit to git
 	* **git add.**
 	* **git commit -m "updating home page to be aweseome"**
@@ -231,7 +305,124 @@
 	* In terminal type **git push origin master -u**
 * If you refresh the Github browser page you should see all your code. 
  
-	
+#### ___F - Deploy to Heroku
+* First we have to update the file called **Gemfile** (it will be at the root of your app)
+	* Copy the code from <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/Gemfile" target="_blank">Gemfile on Github</a> to your app
+* Bundle the new gems
+	* In Terminal type **bundle install --without production**
+* Add and commit to git
+	* **git add .**
+	* **git commit -m "updating gemfile"** 	 	
+<br>	
+* Go to <a href="http://heroku.com" target="_blank">heroku.com</a> and create an account if you don't have one. 
+* Make sure you remember your username and password, you'll need it soon. 
+* From the catster_app folder in the Terminal create a new heroku app
+	* **heroku create your-name-catster-app** 
+* Push your code to heroku
+	* **git push heroku master**	
+* Update the database on Heroku
+	* In the terminal type **heroku run rake db:migrate** 
+* View on heroku
+	* In the Terminal type **heroku open** and a browser will open to your app 
+
+Scroll down
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+v<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+#### You did it again!
+![Smaller icon](http://media.tumblr.com/0786f2164b1e90fe145115010e41cf04/tumblr_inline_mmfnmkNA2P1qz4rgp.gif "Damn Gina")
+
+<br>
+
+#### ___G - Add a Header & Footer (optional)
+* Go look in the <a href="https://github.com/dladowitz/coding-for-non-coders/tree/master/resources/rails_app/app/views/layouts" target="_blank">app>views>layouts folder on GitHub</a>. Make the layout folder in your app look like this.
+	* Note that **_header.html.erb** and **_footer.html.erb** begin with an underscore. 
+
+<br>
+
+#### ___H - Update the Add a Cat page (optional)
+* You're on your own for this one. (Hint: **new.html.erb**)
+* What if you wanted to remove the **Score** input box from this page?
+
+<br>
+
+#### ___I - Add a Contact Page (optional)
+* You'll need to add a **app>controllers>contact_controller.rb** file and find the right code
+* As well as a **contact** folder in the **views** folder
+* Then find the code for **index.html.erb** (watch out there is more than one file with this name) file and add it to **app>views>contact** 
+
+<br>
+
+#### ___J - Make Email Signup Work (Optional)
+
+
+
+
 	
 	
 	 
