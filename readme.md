@@ -293,7 +293,7 @@ more
 * Go back to 'localhost:3000/cat_gifs' and try to UpVote or DownVote a gif
 <br>
 * Lets talk about the MVC Pattern first (Model View Controller)
-![Smaller icon](http://betterexplained.com/wp-content/uploads/rails/mvc-rails.png =550x)
+![](http://betterexplained.com/wp-content/uploads/rails/mvc-rails.png)
 <br>
 <a href="https://www.lucidchart.com/documents/view/2499db8b-b11a-4cb0-9a1d-67de7bbd84d6" target="_blank">View Larger</a> 
 
