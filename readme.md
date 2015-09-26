@@ -288,14 +288,12 @@ more
 <br>
 
 
-#### ___D -  Make voting work (amd fix the homepage)
+#### ___D -  Make voting work (and fix the homepage)
 * Try going to 'localhost:3000'
 * Go back to 'localhost:3000/cat_gifs' and try to UpVote or DownVote a gif
 <br>
 * Lets talk about the MVC Pattern first (Model View Controller)
 ![](http://betterexplained.com/wp-content/uploads/rails/mvc-rails.png)
-<br>
-<a href="https://www.lucidchart.com/documents/view/2499db8b-b11a-4cb0-9a1d-67de7bbd84d6" target="_blank">View Larger</a> 
 
 <br>
 
@@ -323,6 +321,8 @@ more
 	* In terminal type **git push origin master -u**
 * If you refresh the Github browser page you should see all your code. 
  
+<br>
+
 #### ___F - Deploy to Heroku
 * First we have to update the file called **Gemfile** (it will be at the root of your app)
 	* Copy the code from <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/Gemfile" target="_blank">Gemfile on Github</a> to your app
@@ -447,9 +447,9 @@ more
 <br>
 
 ##### ___K - Push to Github and Heroku
-* **git add . **
+* **git add .**
 * **git commit -m "making updates to lots O' things"**
-* ** git push origin master && git push heroku master**
+* **git push origin master && git push heroku master**
 
 <br>
 <br>
