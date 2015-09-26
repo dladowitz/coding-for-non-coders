@@ -419,7 +419,44 @@ more
 <br>
 
 #### ___J - Make Email Signups Work (Optional)
-* Copy the code from <a href"" target="_blank">app>controllers>signups_controller.rb on GitHub</a> to your local app 
+* Copy the code from <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/controllers/signups_controller.rb" target="_blank">app>controllers>signups_controller.rb on GitHub</a> to the same file in your local app 
+* You can now sign up by using the signup input box on the homescreen.
+<br> 
+
+* View all Signups
+	* Copy the code from <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/views/signups/index.html.erb" target="_blank">app>views>signups>index.html.erb on GitHub</a> to the same file in your local app 
+
+<br>
+
+##### ___K - Push to Github and Heroku
+* **git add . **
+* **git commit -m "making updates to lots O' things"**
+* ** git push origin master && git push heroku master**
+
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+
+### 8. SQL
+
+#### ___A - SQLite3
+
+* Super simple. 
+* Everything is stored in one file. 
+* Not good for real apps
+* Let's view the data
+	* Download a viewer at <a href="http://sqlitebrowser.org" target="_blank">sqlitebrowser.org</a>
+	* Install and Open
+	* Go find your Rails database file in db>development.sqlite3
+	* Click on the Browse Data Button
+	* Try executing a SQL query
+		* **SELECT * FROM cat_gifs WHERE ID>1**
+* <a href="hhttp://www.w3schools.com/sql/sql_select.asp" target="_blank">SQL tutorials</a>
+
+
 
 
 
