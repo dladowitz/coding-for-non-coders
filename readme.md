@@ -1,6 +1,13 @@
 ### Intros and Overview
 * What are we doing here today
 * What is your experience with front end web development(html/css/javascript) and back end web development(rails, node, python, java)
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+
 
 ### 0.  Agile
 * <a href="http://4.bp.blogspot.com/-aFcVYuTXO6Y/VS2tecfG5KI/AAAAAAAAAHM/oD6Wy_Cn1iE/s1600/Agile_Development_Process.png" target="_blank">What is Agile?</a> (Actually, I don't really know)
@@ -111,18 +118,27 @@
 * Create a <a href="http://paperplanes.io/" target="_blank">Paperplanes.io</a> account
 * Create a site linked to your github repository	
 
-## You did it! It's Hi-Five time. 
+#### You did it! It's Hi-Five time. 
 ![Smaller icon](https://s-media-cache-ak0.pinimg.com/originals/91/f1/a3/91f1a31ba9edbbacd9243aa2e8ab1d7b.gif "Hi Five")
-
+<br>
+<br>
+<br>
+<br>
+<hr>
 
 ### 7. Lets learn some Ruby
 * We'll use one of <a href="http://railsbridge.org/" target="_blank">Railsbridge's</a> tutorials. They are a super good organization and a great place to continue learning. 
 * Open up <a href="http://docs.railsbridge.org/ruby/ruby" target="_blank">Ruby for Beginners</a>.
 * We won't go over all the sections of the tutorial.
 
-
+<br>
+<br>
+<br>
+<br>
+<hr>
 
 ### 8. Lets make a Rails App
+<br>
 
 #### Create the base app
 * Open Terminal and move to your ** repos ** folder
@@ -144,10 +160,13 @@
 * View your app in a broswer
 	* Open the Chrome browser and go to the address 'localhost:3000'
 	* Congrats, you have a Rails app running. (Ok, it's not that awesome. Let's make it awesomer)
+<br>
+
 	
-#### Add Cat Gifs and a Homepage
+#### Add Cat Gifs
 * Go back to your terminal and we'll create a cat gif (make sure you are not in the tab showing server logs)
 	* **rails generate scaffold CatGifs title:string url:string score:integer**
+	* **rails generate scaffold Signup email_address:string**
 * Update the SQL Database
 	* **rake db:migrate**
 * Go look at the CatGifs page in Chrome
@@ -161,11 +180,32 @@
 	* Find the line that currently adds the url to the screen (It looks like this **<td><%= cat_gif.url %></td>**)
 	* Replace it with this **<td><%= image_tag(cat_gif.url, size: "200x200") %></td>**
 * Refresh the browser. What happened?
+
+<br>
+
+
+#### Make the CatGifs page Awesome
 * Ok more awesome, but not awesome enough. Lets step it up. 
-* 
-		 
-	
-	 	
+* Overwrite App>views>cat_gifs>index.html.erb with new code
+	* You can <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/views/cat_gifs/index.html.erb" target="_blank">find index.html.erb here on github</a>
+* Also overwrite App>controllers>cat_gifs_controller.rb
+	* You can <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/controllers/cat_gifs_controller.rb" target="_blank">find cat_gifs_controller.rb here on github</a>
+* Hmmmm, seems less awesome than before. Where did the cats go?
+* Looks like we need a bunch of CSS files. We'll use the two we created for the static site. 
+* We'll need to create two new files in app>assets>stylesheets (**bootstrap.css** and **business-frontpage.css**)
+* Then copy the code from <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/assets/stylesheets/bootstrap.css" target=_"blank">bootstrap.css on github</a> and <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/assets/stylesheets/business-frontpage.css" target=_"blank">business-frontpage.css on github</a> into each file respectively.  
+
+#### Now refresh the page. 
+![Smaller icon](https://s-media-cache-ak0.pinimg.com/236x/59/a4/09/59a40966a86fe5a046193763380adfaf.jpg "Damn Gina")
+
+* Add some more cat gifs before we move on
+
+<br>
+
+
+#### Make voting work
+
+
 	
 	
 		 
