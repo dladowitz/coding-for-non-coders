@@ -46,7 +46,7 @@
 * **rm**: remove
 
 ### 5. Develop static site
-#### Directory & Git Setup
+#### ___A - Directory & Git Setup
 * Go to your home directory: 
  	* **cd ~**
 * Go to your Documents directory
@@ -67,7 +67,7 @@
 	* **git init**
 * Open Sublime text
 
-#### HTML & Strucutre
+#### ___B - HTML & Strucutre
 * We are going to recreate <a href="https://github.com/dladowitz/coding-for-non-coders/tree/master/resources/static_site" target="_blank">resources > static-site</a>. 
 * We'll call this *'The Resource Site'* for references.
 * Let's call the new site *'The Working Site'*
@@ -82,8 +82,9 @@
 	 * Why is some text bigger?
 	 * Why are some underlined
 	 * Why are some buttons
+* <a href="https://www.youtube.com/watch?v=9iafa959JvY" target="_blank">But more importantly</a>
 
-#### CSS
+#### ___C - CSS
 * Use finder to copy the three files in the 'css' folder of the Resource site into the 'css' folder of your Working site
 * Refresh the browser
 	*  Hint: Open two finder windows if you are getting confused about which folder you are in 
@@ -98,11 +99,11 @@
 	* Where the images coming from?
 * Lets look at the <a href="https://developer.chrome.com/devtools" target="_blank">Chrome Inspector Tool</a>
 
-#### Javascript & JQuery
+#### ___D - Javascript & JQuery
 * Use finder to copy the files in the 'js' folder from the Resource site to the Working site
 * Look at the voting buttons
 
-### 6. Push to Github & Deploy (The Interwebs)
+#### ___E - Push to Github & Deploy (The Interwebs)
 * Go to <a href="https://github.com/" target="_blank">Github.com</a> and create a new repository
 * Copy the repository endpoint
 * Go back to your Command Line (Make sure you are in the catster_static directory)
@@ -126,7 +127,7 @@
 <br>
 <hr>
 
-### 7. Lets learn some Ruby
+### 6. Lets learn some Ruby
 * We'll use one of <a href="http://railsbridge.org/" target="_blank">Railsbridge's</a> tutorials. They are a super good organization and a great place to continue learning. 
 * Open up <a href="http://docs.railsbridge.org/ruby/ruby" target="_blank">Ruby for Beginners</a>.
 * We won't go over all the sections of the tutorial.
@@ -137,10 +138,10 @@
 <br>
 <hr>
 
-### 8. Lets make a Rails App
+### 7. Lets make a Rails App
 <br>
 
-#### Create the base app
+#### ___A - Create the base app
 * Open Terminal and move to your ** repos ** folder
 	* ** cd ~/Documents/repos **
 * Start a new Rails App
@@ -163,7 +164,7 @@
 <br>
 
 	
-#### Add Cat Gifs
+#### ___B - Add Cat Gifs
 * Go back to your terminal and we'll create a cat gif (make sure you are not in the tab showing server logs)
 	* **rails generate scaffold CatGifs title:string url:string score:integer**
 	* **rails generate scaffold Signup email_address:string**
@@ -184,7 +185,7 @@
 <br>
 
 
-#### Make the CatGifs page Awesome
+#### ___C -  Make the CatGifs page Awesome
 * Ok more awesome, but not awesome enough. Lets step it up. 
 * Overwrite App>views>cat_gifs>index.html.erb with new code
 	* You can <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/views/cat_gifs/index.html.erb" target="_blank">find index.html.erb here on github</a>
@@ -195,7 +196,7 @@
 * We'll need to create two new files in app>assets>stylesheets (**bootstrap.css** and **business-frontpage.css**)
 * Then copy the code from <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/assets/stylesheets/bootstrap.css" target=_"blank">bootstrap.css on github</a> and <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/assets/stylesheets/business-frontpage.css" target=_"blank">business-frontpage.css on github</a> into each file respectively.  
 
-#### Now refresh the page. 
+#### ___D -  Now refresh the page. 
 ![Smaller icon](https://s-media-cache-ak0.pinimg.com/236x/59/a4/09/59a40966a86fe5a046193763380adfaf.jpg "Damn Gina")
 
 * Add some more cat gifs before we move on
@@ -203,7 +204,39 @@
 <br>
 
 
-#### Make voting work
+#### ___E -  Make voting work (amd fix the homepage)
+* Try going to 'localhost:3000'
+* Go back to 'localhost:3000/cat_gifs' and try to UpVote or DownVote a gif
+* We need to update the routes file (config>routes.rb) with a new code. 
+	* <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/config/routes.rbs" target=_"blank">find the new routes.rb on github</a> 
+* Now try voting and the homepage. 
+* Lets fix the missing arrows on the voting buttons. 
+	* Inside the **public** folder create a new folder called **fonts** 
+	* Go to <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/public/fonts/glyphicons-halflings-regular.woff" target=_"blank">glyphicons-halflings-regular.woff on github</a> 
+	* Click on "View Raw" and save to **public>fonts**
+	
+<br>
+
+#### ___F - Push to Github and Delpoy to Heroku
+* In the Termminal add and commit to git
+	* **git add.**
+	* **git commit -m "updating home page to be aweseome"**
+* Create a new repository on Github
+	* Go to <a href="https://github.com/new" target="_blank">github.com/new</a> and create a new repository
+	* Name is something like **davids_catster_app** (maybe use your name)
+	* Copy the line that looks like **git remote add origin https://github.com/dladowitz/test_catster_app.git**
+	* Paste the line you just copied into the terminal and press enter. 
+	* Type **git remote -v** and verify you have two endpoints created (fetch and push)
+* Push your code to Github for safe keeping
+	* In terminal type **git push origin master -u**
+* If you refresh the Github browser page you should see all your code. 
+ 
+	
+	
+	
+	 
+
+	 
 
 
 	
