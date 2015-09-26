@@ -418,7 +418,8 @@ more
 
 <br>
 
-#### ___J - Make Email Signup Work (Optional)
+#### ___J - Make Email Signups Work (Optional)
+* Copy the code from <a href"" target="_blank">app>controllers>signups_controller.rb on GitHub</a> to your local app 
 
 
 

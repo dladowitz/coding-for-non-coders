@@ -5,7 +5,13 @@ class SignupsController < ApplicationController
 
   def create
     @signup = Signup.new(signup_params)
-    @signup.save
+
+    if @signup.save
+      flash[:notice] = "New email signuped successfully"
+    else
+      flash[:notice] = "Something has gone terribly wrong"
+    end
+    
     redirect_to cat_gifs_path
   end
 
