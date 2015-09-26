@@ -40,7 +40,7 @@
 <br>
 
 * Lets talk about where we store stuff
-![Smaller icon](https://www.lucidchart.com/publicSegments/view/ea7d3a3d-916a-4f1a-b7d4-988c78d5b1c5/image.png =550x)
+<img src="https://www.lucidchart.com/publicSegments/view/ea7d3a3d-916a-4f1a-b7d4-988c78d5b1c5/image.png" height=500)
 <br>
 <a href="https://www.lucidchart.com/documents/view/2499db8b-b11a-4cb0-9a1d-67de7bbd84d6" target="_blank">View Larger</a> 	
 
@@ -203,7 +203,7 @@ more
 
 
 #### It's Hi-Five time. 
-![Smaller icon](https://s-media-cache-ak0.pinimg.com/originals/91/f1/a3/91f1a31ba9edbbacd9243aa2e8ab1d7b.gif =550x)
+<img src="https://s-media-cache-ak0.pinimg.com/originals/91/f1/a3/91f1a31ba9edbbacd9243aa2e8ab1d7b.gif" height=500>
 <br>
 <br>
 <br>
@@ -413,7 +413,7 @@ more
 <br>
 more
 #### You did it again!
-![](http://media.tumblr.com/0786f2164b1e90fe145115010e41cf04/tumblr_inline_mmfnmkNA2P1qz4rgp.gif)
+<img src="http://media.tumblr.com/0786f2164b1e90fe145115010e41cf04/tumblr_inline_mmfnmkNA2P1qz4rgp.gif" height=300>
 
 <br>
 
