@@ -281,7 +281,7 @@ more
 
 
 #### Now refresh the page. 
-![](https://s-media-cache-ak0.pinimg.com/236x/59/a4/09/59a40966a86fe5a046193763380adfaf.jpg)
+![](https://s-media-cache-ak0.pinimg.com/236x/59/a4/09/59a40966a86fe5a046193763380adfaf.jpg =400x)
 
 * Add some more cat gifs before we move on
 
