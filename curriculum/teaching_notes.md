@@ -85,6 +85,11 @@
 ### 7 Ruby 
 
 
+### 8 Rails
+#### Add Cat Gifs and a Homepage
+* Talk about ERB files.
+
+
 
 
 

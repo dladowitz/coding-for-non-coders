@@ -1,0 +1,13 @@
+<div class="container well mt40">
+  <table class="table">
+    <tr>
+      <th>Count</th>
+      <th>Email Address</th>
+    </tr>
+    <% @signups.each_with_index do |signup, index| %>
+      <tr>
+        <td class="col-sm-1"> <%= index+1 %> </td><td><%= signup.email_address %></td>
+      </tr>
+    <% end %>    
+  </table>
+</div>

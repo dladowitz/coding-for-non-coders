@@ -42,6 +42,8 @@
 #### Directory & Git Setup
 * Go to your home directory: 
  	* **cd ~**
+* Go to your Documents directory
+	* **cd Documents ** 	 	
 * make a directory called 'repos'
 	* **mkdir repos**
 * change into the directory called 'repos'
@@ -117,3 +119,54 @@
 * We'll use one of <a href="http://railsbridge.org/" target="_blank">Railsbridge's</a> tutorials. They are a super good organization and a great place to continue learning. 
 * Open up <a href="http://docs.railsbridge.org/ruby/ruby" target="_blank">Ruby for Beginners</a>.
 * We won't go over all the sections of the tutorial.
+
+
+
+### 8. Lets make a Rails App
+
+#### Create the base app
+* Open Terminal and move to your ** repos ** folder
+	* ** cd ~/Documents/repos **
+* Start a new Rails App
+	* **rails new catster_app**
+* Change into the directory of the new app
+	* ** cd caster_app **
+* Tell git to start watching the app (initialize)
+	* **git init **
+	* **git add . **
+	* **git commit -m "first commit"**
+* Open the app in Sublime Text so we can look at it. 
+	* **subl .**
+	* If this doesn't work use OSX Spotlight to open Sublime Text. Then got to File>Open and find folder in Documents/repos/catster_app
+* Start the app
+	* 	**rails s**
+	* 	Note that the logs now run in Terminal and your commands don't work. You'll need to open a new terminal tab to keep working
+* View your app in a broswer
+	* Open the Chrome browser and go to the address 'localhost:3000'
+	* Congrats, you have a Rails app running. (Ok, it's not that awesome. Let's make it awesomer)
+	
+#### Add Cat Gifs and a Homepage
+* Go back to your terminal and we'll create a cat gif (make sure you are not in the tab showing server logs)
+	* **rails generate scaffold CatGifs title:string url:string score:integer**
+* Update the SQL Database
+	* **rake db:migrate**
+* Go look at the CatGifs page in Chrome
+	* go to localhost:3000/cat_gifs
+	* click on the 'New Cat Gif' link. 
+	* Find a cat gif url and add a title. Leave the score alone for now. 
+	* Click on 'Back' and create a second one. 
+	* Click on 'Back' and view the CatGif page. Its neat, but still not that awesome. 
+* Make the actual GiF show up
+	* Find the file that controls the HTML on this page (App>views>cat_gifs>index.html.erb)
+	* Find the line that currently adds the url to the screen (It looks like this **<td><%= cat_gif.url %></td>**)
+	* Replace it with this **<td><%= image_tag(cat_gif.url, size: "200x200") %></td>**
+* Refresh the browser. What happened?
+* Ok more awesome, but not awesome enough. Lets step it up. 
+* 
+		 
+	
+	 	
+	
+	
+		 
+
