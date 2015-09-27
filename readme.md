@@ -569,10 +569,10 @@ more
 
 ### 9. What about APIs?
 * Let's look at Reddit's cat gifs page 
-	* <a href="https://www.reddit.com/r/CatGifs/" target="_blank"> https://www.reddit.com/r/CatGifs </a>
+	* <a href="https://www.reddit.com/r/CatGifs/" target="_blank" >Reddit Cat Gifs</a>
 
 * Now lets look at the api version of the same page 
-	* <a href="https://www.reddit.com/r/CatGifs/.json" target="_blank">https://www.reddit.com/r/CatGifs/.json</a>
+	* <a href="https://www.reddit.com/r/CatGifs/.json" target="_blank">Reddit Cat Gifs API Page</a>
 	
 * If you don't want to become blind and insane you should use a <a href="http://www.jsoneditoronline.org/" target="_blank"	/>Json Editor</a> or <a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank"/>Json Viewer</a>
 		
@@ -581,7 +581,7 @@ more
 * Ok, what if we want to pull reddit's cat gifs into our app?
 * Luckily all that code has already been included. We just need to enable it. 
 	* In **app>controllers>cat_gifs_controller.rb** uncomment lines 10 and 11
-	* Wait, what's a <a href="http://www.tutorialspoint.com/ruby/ruby_comments.htm">comment</a>?
+	* Wait, what's a <a href="http://www.tutorialspoint.com/ruby/ruby_comments.htm" target="_blank">comment</a>?
 	 
 * Refresh your browser and you'll see images pulled from Reddit's api
 
