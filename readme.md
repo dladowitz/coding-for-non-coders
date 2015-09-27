@@ -144,11 +144,13 @@
 #### ___E - Push to Github & Deploy (The Interwebs)
 * Go to <a href="https://github.com/new" target="_blank">github.com/new</a> and create a new repository. Call it somethinlike **catster_static**
 * Copy the line that looks something like this:
-	* **git remote add origin https://github.com/dladowitz/catster_static_2.git**
-	<img src="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/curriculum/add_remote.png">
+	* **git remote add origin https://github.com/dladowitz/catster_static.git**
+	<img src="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/curriculum/images/add_remote.png">
 * Go back to your Command Line (Make sure you are in the catster_static directory)
 * Add the copied address to git as a remote
 	* **git remote add origin https://github.com/dladowitz/catster_static.git** (make sure to use your endpoint, not mine)
+* Verify a remote was added
+	* **git remote v** (you should see a fetch and push) 
 * Add your changes to git 
 	* **git add .**
 * Commit your changes to git
