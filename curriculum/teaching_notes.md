@@ -87,6 +87,9 @@
 * Nor does the hamburger dropdown
 * Go over score.js
 * Explain what JQuery is doing
+* Lets talk about why we need a database. 
+	* A browser looses data when it's colosed
+	* So does pry. Show how variables aren't saved in pry.
 
 
 ### 7 Ruby 
