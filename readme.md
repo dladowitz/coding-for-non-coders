@@ -360,7 +360,7 @@ more
 
 * We need to update the routes file (config>routes.rb) with a new code. 
 	* <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/config/routes.rb" target=_"blank">find the new routes.rb on github</a> 
-* Now try voting and the homepage. 
+* Now refresh and try voting on the homepage. 
 * Lets fix the missing arrows on the voting buttons. 
 	* Inside the **public** folder create a new folder called **fonts** 
 	* Go to <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/public/fonts/glyphicons-halflings-regular.woff" target=_"blank">glyphicons-halflings-regular.woff on github</a> 
