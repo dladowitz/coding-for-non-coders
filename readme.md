@@ -143,6 +143,10 @@
 
 #### ___E - Push to Github & Deploy (The Interwebs)
 * Go to <a href="https://github.com/new" target="_blank">github.com/new</a> and create a new repository. Call it somethinlike **catster_static**
+<img src="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/curriculum/images/new_repository.png" height=400>
+
+<br>
+
 * Copy the line that looks something like this:
 	* **git remote add origin https://github.com/dladowitz/catster_static.git**
 	<img src="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/curriculum/images/add_remote.png">
