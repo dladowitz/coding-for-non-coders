@@ -95,7 +95,7 @@
 <br>
 
 * But more importantly...	 
-* <iframe width="560" height="315" src="https://www.youtube.com/embed/9iafa959JvY" frameborder="0" allowfullscreen></iframe>
+* <a href="https://www.youtube.com/embed/9iafa959JvY" target="_blank"><img src="http://static5.businessinsider.com/image/55ad435f371d22472c8b5c13/why-gif-should-be-pronounced-giff-and-not-jiff.jpg">
 
 
 #### ___C - CSS
