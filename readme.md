@@ -374,8 +374,8 @@ more
 	* **git commit -m "updating home page to be aweseome"**
 * Create a new repository on Github
 	* Go to <a href="https://github.com/new" target="_blank">github.com/new</a> and create a new repository
-	* Name is something like **davids_catster_app** (maybe use your name)
-	* Copy the line that looks like **git remote add origin https://github.com/dladowitz/test_catster_app.git**
+	* Name is something like **catster_app** (maybe use your name)
+	* Copy the line that looks like **git remote add origin https://github.com/dladowitz/catster_app.git**
 	* Paste the line you just copied into the terminal and press enter. 
 	* Type **git remote -v** and verify you have two endpoints created (fetch and push)
 * Push your code to Github for safe keeping
