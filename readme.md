@@ -568,11 +568,13 @@ more
 <hr>
 
 ### 9. What about APIs?
-* Let's look at Reddit's cat gifs page <a href="https://www.reddit.com/r/CatGifs/"  target="_blank">https://www.reddit.com/r/CatGifs/</a>
-* Now lets look at the api version of the same page <a href="https://www.reddit.com/r/CatGifs/.json" target="_blank">https://www.reddit.com/r/CatGifs/.json</a>
-	* If you don't want to become blind and insane you should use a
-	<a href="http://www.jsoneditoronline.org/" target="_blank"	/>Json Editor</a> or 
-		<a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank"/>Json Viewer</a>
+* Let's look at Reddit's cat gifs page 
+	* <a href="https://www.reddit.com/r/CatGifs/" target="_blank"> https://www.reddit.com/r/CatGifs </a>
+
+* Now lets look at the api version of the same page 
+	* <a href="https://www.reddit.com/r/CatGifs/.json" target="_blank">https://www.reddit.com/r/CatGifs/.json</a>
+	
+* If you don't want to become blind and insane you should use a <a href="http://www.jsoneditoronline.org/" target="_blank"	/>Json Editor</a> or <a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank"/>Json Viewer</a>
 		
 <br>
 
