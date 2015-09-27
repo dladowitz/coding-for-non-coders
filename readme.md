@@ -349,6 +349,8 @@ more
 * Lets talk about the MVC Pattern first (Model View Controller)
 ![](http://betterexplained.com/wp-content/uploads/rails/mvc-rails.png)
 
+* Go look at whats in the current SQL database. Either by sqlitebrowser or the console. 
+
 <br>
 
 #### ___D -  Make voting work (and fix the homepage)
@@ -357,7 +359,7 @@ more
 <br>
 
 * We need to update the routes file (config>routes.rb) with a new code. 
-	* <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/config/routes.rbs" target=_"blank">find the new routes.rb on github</a> 
+	* <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/config/routes.rb" target=_"blank">find the new routes.rb on github</a> 
 * Now try voting and the homepage. 
 * Lets fix the missing arrows on the voting buttons. 
 	* Inside the **public** folder create a new folder called **fonts** 
