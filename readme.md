@@ -474,8 +474,44 @@ more
 		* **SELECT * FROM cat_gifs WHERE ID>1**
 * <a href="hhttp://www.w3schools.com/sql/sql_select.asp" target="_blank">SQL tutorials</a>
 
-#### ___B - MySQL
-#### ___C - PostgreSQL
+#### ___B - Other SQL Versions
+* MySQL
+* PostgreSQL
+* Microsoft SQL Server
+* Oracle SQL
+* DB2
+
+#### ___C - Non SQL Versions
+* MongoDB
+* CouchDB
+* Amazon SimpleDB
+* Riak
+* Neo4J
+
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+### 9. What about APIs?
+* Let's look at Reddit's cat gifs page <a href="https://www.reddit.com/r/CatGifs/">https://www.reddit.com/r/CatGifs/</a>
+* Now lets look at the api version of the same page <a href="https://www.reddit.com/r/CatGifs/.json">https://www.reddit.com/r/CatGifs/.json</a>
+	* If you don't want to become blind and insane you should use a
+	<a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc"/>Json Editor</a> or 
+		<a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc"/>Json Viewer</a>
+		
+<br>
+
+* Ok, what if we want to pull reddit's cat gifs into our app?
+* Luckily all that code has already been included. We just need to enable it. 
+	* In **app>controllers>cat_gifs_controller.rb** uncomment lines 10 and 11
+	* Wait, what's a <a href="http://www.tutorialspoint.com/ruby/ruby_comments.htm">comment</a>?
+	 
+* Refresh your browser and you'll see images pulled from Reddit's api
+
+
+
 
 
 
