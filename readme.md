@@ -286,7 +286,7 @@ more
 * Start a new Rails App
 	* **rails new catster_app**
 * Change into the directory of the new app
-	* **cd caster_app**
+	* **cd catster_app**
 * Tell git to start watching the app (initialize)
 	* **git init**
 	* **git add .**
@@ -295,7 +295,7 @@ more
 	* **subl .**
 	* If this doesn't work use OSX Spotlight to open Sublime Text. Then got to File>Open and find folder in Documents/repos/catster_app
 * Start the app
-	* 	**rails s**
+	* 	**rails server**
 	* 	Note that the logs now run in Terminal and your commands don't work. You'll need to open a new terminal tab to keep working
 * View your app in a broswer
 	* Open the Chrome browser and go to the address 'localhost:3000'
@@ -309,16 +309,16 @@ more
 	* **rails generate scaffold Signup email_address:string**
 * Update the SQL Database
 	* **rake db:migrate**
-* Go look at the CatGifs page in Chrome
-	* go to localhost:3000/cat_gifs
+* Go look at the CatGifs page in the Chrome browser
+	* go to 'localhost:3000/cat_gifs'
 	* click on the 'New Cat Gif' link. 
 	* Find a cat gif url and add a title. Leave the score alone for now. 
 	* Click on 'Back' and create a second one. 
 	* Click on 'Back' and view the CatGif page. Its neat, but still not that awesome. 
 * Make the actual GiF show up
-	* Find the file that controls the HTML on this page (App>views>cat_gifs>index.html.erb)
-	* Find the line that currently adds the url to the screen (It looks like this **<td><%= cat_gif.url %></td>**)
-	* Replace it with this **<td><%= image_tag(cat_gif.url, size: "200x200") %></td>**
+	* Find the file that controls the HTML on this page (app>views>cat_gifs>index.html.erb)
+	* Find the line that currently adds the url to the screen. It's probably on line 19 and it looks like this: **<td><%= cat_gif.url %></td>**
+	* Replace it with this: **<td><%= image_tag(cat_gif.url, size: "200x200") %></td>**
 * Refresh the browser. What happened?
 
 <br>
@@ -326,9 +326,9 @@ more
 
 #### ___C -  Make the CatGifs page Awesome
 * Ok more awesome, but not awesome enough. Lets step it up. 
-* Overwrite App>views>cat_gifs>index.html.erb with new code
-	* You can <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/views/cat_gifs/index.html.erb" target="_blank">find index.html.erb here on github</a>
-* Also overwrite App>controllers>cat_gifs_controller.rb
+* Overwrite app>views>cat_gifs>index.html.erb with new code.
+	* You can <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/views/cat_gifs/index.html.erb" target="_blank">find the new index.html.erb code here on github</a>
+* Also overwrite app>controllers>cat_gifs_controller.rb
 	* You can <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/controllers/cat_gifs_controller.rb" target="_blank">find cat_gifs_controller.rb here on github</a>
 * Hmmmm, seems less awesome than before. Where did the cats go?
 * Looks like we need a bunch of CSS files. We'll use the two we created for the static site. 
@@ -339,18 +339,21 @@ more
 #### Now refresh the page. 
 <img src="https://s-media-cache-ak0.pinimg.com/236x/59/a4/09/59a40966a86fe5a046193763380adfaf.jpg" height=400px"">
 
-* Add some more cat gifs before we move on
+<br>
+
+* Add some more cat gifs before we move on.
 
 <br>
 
+#### But how is this working?
+* Lets talk about the MVC Pattern first (Model View Controller)
+![](http://betterexplained.com/wp-content/uploads/rails/mvc-rails.png)
+
+<br>
 
 #### ___D -  Make voting work (and fix the homepage)
 * Try going to 'localhost:3000'
 * Go back to 'localhost:3000/cat_gifs' and try to UpVote or DownVote a gif
-<br>
-* Lets talk about the MVC Pattern first (Model View Controller)
-![](http://betterexplained.com/wp-content/uploads/rails/mvc-rails.png)
-
 <br>
 
 * We need to update the routes file (config>routes.rb) with a new code. 
