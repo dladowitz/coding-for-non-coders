@@ -288,8 +288,8 @@ more
 * Change into the directory of the new app
 	* **cd caster_app**
 * Tell git to start watching the app (initialize)
-	* **git init **
-	* **git add . **
+	* **git init**
+	* **git add .**
 	* **git commit -m "first commit"**
 * Open the app in Sublime Text so we can look at it. 
 	* **subl .**
