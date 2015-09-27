@@ -362,7 +362,8 @@ more
 	* <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/config/routes.rb" target=_"blank">find the new routes.rb on github</a> 
 * Now refresh and try voting on the homepage. 
 * Lets fix the missing arrows on the voting buttons. 
-	* Inside the **public** folder create a new folder called **fonts** 
+	* Inside the **public** folder create a new folder called **fonts**
+		* The **public** folder is that the root of you app.  
 	* Go to <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/public/fonts/glyphicons-halflings-regular.woff" target=_"blank">glyphicons-halflings-regular.woff on github</a> 
 	* Click on "View Raw" and save to **public>fonts**
 	
@@ -375,11 +376,18 @@ more
 * Create a new repository on Github
 	* Go to <a href="https://github.com/new" target="_blank">github.com/new</a> and create a new repository
 	* Name is something like **catster_app** (maybe use your name)
-	* Copy the line that looks like **git remote add origin https://github.com/dladowitz/catster_app.git**
+	* Copy the line that looks something like:
+	
+	 **git remote add origin https://github.com/dladowitz/catster_app.git**
+	 
+	<img src="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/curriculum/images/add_remote_catster_app.png">
+
+	<br>
+
 	* Paste the line you just copied into the terminal and press enter. 
 	* Type **git remote -v** and verify you have two endpoints created (fetch and push)
 * Push your code to Github for safe keeping
-	* In terminal type **git push origin master -u**
+	* In terminal type **git push -u origin master**
 * If you refresh the Github browser page you should see all your code. 
  
 <br>
@@ -391,7 +399,8 @@ more
 	* In Terminal type **bundle install --without production**
 * Add and commit to git
 	* **git add .**
-	* **git commit -m "updating gemfile"** 	 	
+	* **git commit -m "updating gemfile"** 
+	* **git push origin master**	 	
 <br>	
 * Go to <a href="http://heroku.com" target="_blank">heroku.com</a> and create an account if you don't have one. 
 * Make sure you remember your username and password, you'll need it soon. 
