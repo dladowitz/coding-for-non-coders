@@ -91,7 +91,12 @@
 	 * Why is some text bigger?
 	 * Why are some underlined
 	 * Why are some buttons
-* <a href="https://www.youtube.com/watch?v=9iafa959JvY" target="_blank">But more importantly</a>
+	 
+<br>
+
+* But more importantly...	 
+* <iframe width="560" height="315" src="https://www.youtube.com/embed/9iafa959JvY" frameborder="0" allowfullscreen></iframe>
+
 
 #### ___C - CSS
 * Use finder to copy the three files in the 'css' folder of the Resource site into the 'css' folder of your Working site
@@ -392,7 +397,7 @@ more
 more
 <br>
 more
-v<br>
+<br>
 more
 <br>
 more
