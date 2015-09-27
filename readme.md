@@ -12,7 +12,6 @@
 <hr>
 
 
-
 ### 0.  Agile
 * <a href="http://4.bp.blogspot.com/-aFcVYuTXO6Y/VS2tecfG5KI/AAAAAAAAAHM/oD6Wy_Cn1iE/s1600/Agile_Development_Process.png" target="_blank">What is Agile?</a> (Actually, I don't really know)
 
@@ -167,9 +166,10 @@
 	* You should see a line that says 'Nothing to commit, working directory clean'
 * Push to github
 	* **git push origin master -u**
-* Go back to github refresh the page. You should  your code is up there
-* Create a <a href="http://paperplanes.io/" target="_blank">Paperplanes.io</a> account
-* Create a site linked to your github repository	
+* Go back to github refresh the page. You should  your code is up there.
+* Create a <a href="http://paperplane.io/" target="_blank">paperplane.io</a> account
+* Create a site linked to your github repository
+	* For some reason the paperplane link shows up wrong. You need to remove **https://www.paperplane.io** from the begining of the url. 	* It should look ike **catster-static.paperplane.io/** 		
 
 #### You did it! 
 Scroll down
@@ -221,7 +221,7 @@ more
 more
 <br>
 more
-v<br>
+<br>
 more
 <br>
 more
@@ -257,6 +257,20 @@ more
 * Open up <a href="http://docs.railsbridge.org/ruby/ruby" target="_blank">Ruby for Beginners</a>.
 * We won't go over all the sections of the tutorial.
 
+#### ___A - Create the workspace
+* In Terminal create a folder called 'ruby_practice'
+	* **cd ~/Documents/repositories**
+	* **mkdir ruby_practice**
+* Change into that folder
+	* **cd ruby_practice** 
+
+#### ___B - Classes
+* Classes are buildig blocks. Like nouns, verbs, adjectives in English. They all serve different purposes. 
+* String, Fixnum, Float, Array, Hash
+* They each have different methods attached to them. 
+	* Try **"five.upcase"** vs **5.upcase** 
+
+
 <br>
 <br>
 <br>
@@ -268,11 +282,11 @@ more
 
 #### ___A - Create the base app
 * Open Terminal and move to your ** repos ** folder
-	* ** cd ~/Documents/repos **
+	* **cd ~/Documents/repositories**
 * Start a new Rails App
 	* **rails new catster_app**
 * Change into the directory of the new app
-	* ** cd caster_app **
+	* **cd caster_app**
 * Tell git to start watching the app (initialize)
 	* **git init **
 	* **git add . **

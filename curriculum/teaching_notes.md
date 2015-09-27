@@ -8,6 +8,7 @@
 * What you are looking to get from this class.
 * What are we doing here today
 
+### Time Estimage: 2-3 hrs
 ### 0 Agile
 * Old way of creating boxed software
 * Today we are simulating 2 sprints of development, a Static Site and a Rails App
@@ -92,10 +93,10 @@
 	* So does pry. Show how variables aren't saved in pry.
 
 
-### 7 Ruby 
+### 7 Ruby Time - Estimage: 1 hr
 
 
-### 8 Rails
+### 8 Rails - Estimage: 3 hrs
 #### Add Cat Gifs and a Homepage
 * Talk about ERB files.
 
@@ -107,5 +108,6 @@
 ### Things that need to be setup on workstation
 * Git
 * Sublime Text
+* Pry
 * Rails
 * Heroku
