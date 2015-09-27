@@ -397,7 +397,9 @@ more
 	* Copy the code from <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/Gemfile" target="_blank">Gemfile on Github</a> to your app
 * Bundle the new gems
 	* In Terminal type **bundle install --without production**
-* Add and commit to git
+* Stop and start you local server
+	* In Terminal find the tab with the server logs. Press **CTRL+C** then restart the server with **rails server**
+* Go back to the other Termainl tab. Add and commit to git.
 	* **git add .**
 	* **git commit -m "updating gemfile"** 
 	* **git push origin master**	 	
@@ -512,6 +514,7 @@ more
 <br> 
 
 * View all Signups
+	* Lets look at signups in the rails console first 
 	* Copy the code from <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/views/signups/index.html.erb" target="_blank">app>views>signups>index.html.erb on GitHub</a> to the same file in your local app 
 
 <br>
@@ -565,11 +568,11 @@ more
 <hr>
 
 ### 9. What about APIs?
-* Let's look at Reddit's cat gifs page <a href="https://www.reddit.com/r/CatGifs/">https://www.reddit.com/r/CatGifs/</a>
-* Now lets look at the api version of the same page <a href="https://www.reddit.com/r/CatGifs/.json">https://www.reddit.com/r/CatGifs/.json</a>
+* Let's look at Reddit's cat gifs page <a href="https://www.reddit.com/r/CatGifs/" target="_blank">https://www.reddit.com/r/CatGifs/</a>
+* Now lets look at the api version of the same page <a href="https://www.reddit.com/r/CatGifs/.json" target="_blank">https://www.reddit.com/r/CatGifs/.json</a>
 	* If you don't want to become blind and insane you should use a
-	<a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc"/>Json Editor</a> or 
-		<a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc"/>Json Viewer</a>
+	<a href="http://www.jsoneditoronline.org/" target="_blank"	/>Json Editor</a> or 
+		<a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank"/>Json Viewer</a>
 		
 <br>
 
@@ -579,6 +582,84 @@ more
 	* Wait, what's a <a href="http://www.tutorialspoint.com/ruby/ruby_comments.htm">comment</a>?
 	 
 * Refresh your browser and you'll see images pulled from Reddit's api
+
+<br>
+<br>
+
+# Congrats, We did it
+
+Scroll down
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+<br>
+more
+
+<img src="http://i.imgur.com/x37825M.gif" height=500px>
+
 
 
 
