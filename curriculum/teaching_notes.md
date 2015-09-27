@@ -1,7 +1,11 @@
 ## Teaching Notes
 ### Introduction
 * Who is teaching
-* Background
+* My Background
+* What is your experience with web developement? 
+	* Front end, Back End, Mobile, Databases?
+* If you have a job what you do currently. If you don't what you are looking to do next. 
+* What you are looking to get from this class.
 * What are we doing here today
 
 ### 0 Agile
@@ -9,10 +13,7 @@
 * Today we are simulating 2 sprints of development, a Static Site and a Rails App
 
 ### 1 Standup
-* What is your experience with web developement? 
-	* Front end, Back End, Mobile, Databases?
-* If you have a job what you do currently. If you don't what you are looking to do next. 
-* What you are looking to get from this class.
+
 * What you did yeasterday
 * What you are going to do today
 * Any blockers
@@ -40,8 +41,14 @@
 	* Storage, Sharing, Pull Requests and OctCats
 
 ### 4 Command Line
+* **Write Commands on Whiteboard **
 * Have students keep the finder open
-* Demo cd, ls, .., ., & mkdir
+* Demo commands
+* pwd
+* ls
+* cd ..
+* cd back down
+* mkdir
 
 
 ### 5 Develop Static Site
@@ -97,3 +104,5 @@
 ### Things that need to be setup on workstation
 * Git
 * Sublime Text
+* Rails
+* Heroku

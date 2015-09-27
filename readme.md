@@ -1,6 +1,10 @@
 ### Intros and Overview
 * What are we doing here today
-* What is your experience with front end web development(html/css/javascript) and back end web development(rails, node, python, java)
+* What is your experience with web developement? 
+	* Front end (html, css, javascript), Back End (Ruby, Python, Java, C++), Mobile (iOS , Android), Databases?
+* If you have a job what you do currently. If you don't what you are looking to do next. 
+* What you are looking to get from this class.
+
 <br>
 <br>
 <br>
@@ -14,6 +18,11 @@
 
 ### 1. Standup
 * <a href="https://en.wikipedia.org/wiki/Stand-up_meeting" target="_blank">Daily check in and progress report</a>
+
+* What you did yeasterday
+* What you are going to do today
+* Any blockers
+
 
 ### 2. Sprint Planning
 * <a href="http://scrummethodology.com/scrum-meetings" target="_blank">Plan and Commit to tasks</a>
@@ -48,22 +57,31 @@
 
 ### 4. Command Line
 * <a href="http://linuxcommand.org/learning_the_shell.php" target="_blank">Command Line Basics</a>
-* **pwd**: print working directory
-* **cd**: change directory
-* **ls**: list
-* **mkdir** : make directory
-* **rm**: remove
+* Open the finder **(when things get crazy, and they will, just use the finder)**
+	* **open .** 
+* Print working directory
+	* **pwd** 
+* List
+	* **ls**
+* Change directory
+	* **cd** 	
+* Change to the parent directory
+	* **'cd ..'** 
+* Make directory
+	* **mkdir** 
+* Remove
+	* **rm**
 
 ### 5. Develop static site
 #### ___A - Directory & Git Setup
 * Go to your home directory: 
  	* **cd ~**
 * Go to your Documents directory
-	* **cd Documents ** 	 	
+	* **cd Documents** 	 	
 * make a directory called 'repos'
-	* **mkdir repos**
+	* **mkdir repositories**
 * change into the directory called 'repos'
-	* **cd repos**
+	* **cd repositories**
 * clone a repo from Gitub (this holds resources we'll need for the class)
 	* **git clone <a href="https://github.com/dladowitz/coding-for-non-coders.git" target="_blank">https://github.com/dladowitz/coding-for-non-coders.git</a>** 
 * Look at the contents of the directory	
@@ -74,12 +92,14 @@
 	* **cd catster_static**
 * Tell Git to start watching this folder (Initialize)
 	* **git init**
-* Open Sublime text
+* Open Sublime text so you are have **catster_static** files on the left 
+	* **subl .** 
+	* (Sometimes this doesn't work. If not you'll need to use the 'file>open' feature and navigate to the correct folder) 
 
 #### ___B - HTML & Strucutre
 * We are going to recreate <a href="https://github.com/dladowitz/coding-for-non-coders/tree/master/resources/static_site" target="_blank">resources > static-site</a>. 
-* We'll call this *'The Resource Site'* for references.
-* Let's call the new site *'The Working Site'*
+* We'll call this *'The Resource Site'* for reference.
+* Let's call what we build *'The Working Site'*
 * We'll copy each component in one by one and see what it adds. 
 * Inside of <a href="http://www.sublimetext.com/3" target="_blank">Sublime Text</a> create **index.html**
 	* Add 'Hello World' to the file and then open with the Chrome browser  
@@ -94,8 +114,6 @@
 	 
 <br>
 
-* But more importantly...	 
-* <a href="https://www.youtube.com/embed/9iafa959JvY" target="_blank"><img src="http://static5.businessinsider.com/image/55ad435f371d22472c8b5c13/why-gif-should-be-pronounced-giff-and-not-jiff.jpg">
 
 
 #### ___C - CSS
@@ -112,6 +130,11 @@
 	* How are voting buttons being colored
 	* Where the images coming from?
 * Lets look at the <a href="https://developer.chrome.com/devtools" target="_blank">Chrome Inspector Tool</a>
+
+* But more importantly...	 
+<a href="https://www.youtube.com/embed/9iafa959JvY" target="_blank"><img src="http://static5.businessinsider.com/image/55ad435f371d22472c8b5c13/why-gif-should-be-pronounced-giff-and-not-jiff.jpg"></a>
+
+<br>
 
 #### ___D - Javascript & JQuery
 * Use finder to copy the files in the 'js' folder from the Resource site to the Working site
