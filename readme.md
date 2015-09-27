@@ -142,7 +142,7 @@
 * Notice that votes aren't saved when the browser is refreshed. Why not? What do we need? 
 
 #### ___E - Push to Github & Deploy (The Interwebs)
-* Go to <a href="https://github.com/new" target="_blank">github.com/new</a> and create a new repository. Call it somethinlike **catster_static**
+* Go to <a href="https://github.com/new" target="_blank">github.com/new</a> and create a new repository. Call it something like **catster_static**
 <img src="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/curriculum/images/new_repository.png" height=400>
 
 <br>
@@ -150,6 +150,9 @@
 * Copy the line that looks something like this:
 	* **git remote add origin https://github.com/dladowitz/catster_static.git**
 	<img src="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/curriculum/images/add_remote.png">
+	
+<br>
+	
 * Go back to your Command Line (Make sure you are in the catster_static directory)
 * Add the copied address to git as a remote
 	* **git remote add origin https://github.com/dladowitz/catster_static.git** (make sure to use your endpoint, not mine)
@@ -159,9 +162,12 @@
 	* **git add .**
 * Commit your changes to git
 	* **git commit -m "finishing static site"** 
+* Verify your changes are added and commited
+	* **git status**
+	* You should see a line that says 'Nothing to commit, working directory clean'
 * Push to github
-	* **git push origin master**
-* Go back to github and verify your code is up there
+	* **git push origin master -u**
+* Go back to github refresh the page. You should  your code is up there
 * Create a <a href="http://paperplanes.io/" target="_blank">Paperplanes.io</a> account
 * Create a site linked to your github repository	
 
