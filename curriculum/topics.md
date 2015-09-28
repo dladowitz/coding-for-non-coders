@@ -42,10 +42,8 @@
 * JSON
 * ORMs
 
-
-
-
-
-
 * Web development Skils
 	*  https://dgosxlrnzhofi.cloudfront.net/custom_page_images/64/page_images/Rails_Competencies.png?1386276348
+
+* And for good measure
+<a href="https://www.youtube.com/watch?v=h-RtayJQubY" target="_blank"> </a>
