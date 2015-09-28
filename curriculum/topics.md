@@ -1,4 +1,4 @@
-# Things programmers say
+# Words programmers should know
 
 <a href="https://www.youtube.com/watch?v=BR8zFANeBGQ" target="_blank"><img src="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/curriculum/images/shit_silicon_valley_says.png"> </a>
 ## Topics
