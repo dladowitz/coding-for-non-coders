@@ -37,12 +37,13 @@
 * Roles: Front End, Back End, Full Stack, Mobile, Dev Ops, QA
 * APIs
 * Templates: HAML, ERB & Handlebars
-* <a href ="https://dgosxlrnzhofi.cloudfront.net/custom_page_images/64/page_images/Rails_Competencies.png?1386276348" target="_blank">Rails Competencies</a> 
 * Object Oriented Programming
 * JSON
 * ORMs
 * <a href ="https://dgosxlrnzhofi.cloudfront.net/custom_page_images/64/page_images/Rails_Competencies.png?1386276348"
 <br>
 <br>
+
 #### And for good measure
+
 <a href="https://www.youtube.com/watch?v=h-RtayJQubY" target="_blank"><img src="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/curriculum/images/shit_hipsters_say.png" height=400> </a>
