@@ -41,10 +41,7 @@
 * Object Oriented Programming
 * JSON
 * ORMs
-
-* Web development Skils
-	*  https://dgosxlrnzhofi.cloudfront.net/custom_page_images/64/page_images/Rails_Competencies.png?1386276348
-
+* <a href ="https://dgosxlrnzhofi.cloudfront.net/custom_page_images/64/page_images/Rails_Competencies.png?1386276348"
 <br>
 <br>
 #### And for good measure
