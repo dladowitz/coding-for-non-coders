@@ -664,7 +664,7 @@ more
 
 <br>
 #### Optional
-* Lets look at <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/curriculum/topics.md" target="_blank">common words you might here programers use</a>. 
+* Lets look at <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/curriculum/topics.md" target="_blank"> words you might hear programers use</a>. 
 
 
 
