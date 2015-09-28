@@ -1,5 +1,6 @@
 # Things programmers say
 
+<a href="https://www.youtube.com/watch?v=BR8zFANeBGQ" target="_blank"> </a>
 ## Topics
 * Front End
 * Back End
