@@ -40,7 +40,7 @@
 * Object Oriented Programming
 * JSON
 * ORMs
-* <a href ="https://dgosxlrnzhofi.cloudfront.net/custom_page_images/64/page_images/Rails_Competencies.png?1386276348"
+* <a href ="https://dgosxlrnzhofi.cloudfront.net/custom_page_images/64/page_images/Rails_Competencies.png?1386276348" target="_blank">Rails Competencies</a>
 <br>
 <br>
 
