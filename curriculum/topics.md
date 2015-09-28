@@ -5,10 +5,13 @@
 * Front End
 * Back End
 * Mobile
+* Dev Ops
 * What is a stack
 * HTML
+* The DOM
 * CSS & Bootstrap
 * Javascript
+* JQuery
 * Git: Repos, Push, Pull, Merge
 * Github: Clone, Fork, Pull Request
 * HTTP: Request, Response, Methods, Headers
@@ -33,7 +36,11 @@
 * Visual Design (graphic designers) vs Markup (Front End Devs)
 * Roles: Front End, Back End, Full Stack, Mobile, Dev Ops, QA
 * APIs
-*
+* Templates: HAML, ERB & Handlebars
+* <a href ="https://dgosxlrnzhofi.cloudfront.net/custom_page_images/64/page_images/Rails_Competencies.png?1386276348" target="_blank">Rails Competencies</a> 
+* Object Oriented Programming
+* JSON
+* ORMs
 
 
 
