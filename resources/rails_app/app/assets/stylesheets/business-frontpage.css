@@ -13,7 +13,7 @@ body {
 .business-header {
     height: 400px;
     /*background: url('dusty_wide_dark_2.jpg') center center no-repeat scroll; Issue with asset pipeline*/
-    background: url('https://photos-3.dropbox.com/t/2/AABP9vSY9YthUd30ew9KRjbqmTgQAnNEZSIiRp_HuqaEDw/12/42858996/jpeg/32x32/1/1443920400/0/2/dusty_wide_dark_2.jpg/CPTztxQgASACIAMgBiAHKAIoBw/8B52hbbo0VYlE_Cj0mGHv4CNaq0FmybLHeA8JlMRHEk?size=1024x768&size_mode=2') center center no-repeat scroll;
+    background: url('https://dl.dropboxusercontent.com/s/xw6od24cfvqnuxh/dusty_wide_dark_2.jpg?dl=0') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
