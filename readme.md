@@ -184,6 +184,7 @@
 * Go back to github refresh the page. You should  your code is up there.
 * Create a <a href="http://paperplane.io/" target="_blank">paperplane.io</a> account
 * Create a site linked to your github repository
+	* For the name and url use something like 'your_name_catster_static' 
 	* For some reason the paperplane link shows up wrong. You need to remove **https://www.paperplane.io** from the begining of the url. 	* It should look ike **catster-static.paperplane.io/** 		
 
 #### You did it! 
@@ -279,12 +280,6 @@ more
 * Change into that folder
 	* **cd ruby_practice** 
 
-#### ___B - Classes
-* Classes are buildig blocks. Like nouns, verbs, adjectives in English. They all serve different purposes. 
-* String, Fixnum, Float, Array, Hash
-* They each have different methods attached to them. 
-	* Try **"five.upcase"** vs **5.upcase** 
-
 
 <br>
 <br>
@@ -296,7 +291,7 @@ more
 <br>
 
 #### ___A - Create the base app
-* Open Terminal and move to your ** repos ** folder
+* Open Terminal and move to your ** repositories ** folder
 	* **cd ~/Documents/repositories**
 * Start a new Rails App
 	* **rails new catster_app**
