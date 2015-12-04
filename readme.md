@@ -125,20 +125,26 @@
 
 
 #### ___C - CSS
-* Use finder to copy the three files in the 'css' folder of the Resource site into the 'css' folder of your Working site
-* Refresh the browser
+* Use finder to copy the two files in the 'css' folder of the Resource site into the 'css' folder of your Working site
 	*  Hint: Open two finder windows if you are getting confused about which folder you are in 
+* Refresh the browser
 * Also copy the file in the images folder 'dusty_wide_dark_2.jpg'
 * Refresh the browser
-* Notice the Voting button have squares
-* Copy in the files from the 'fonts' folder and refresh
-* <a href="http://www.w3schools.com/css/css_syntax.asp" target="_blank">CSS Syntax</a>
+* What is going on?
+	* How did the index.html file even know about these new CSS files?
+	 
+
+* Hmmm let's look at some <a href="http://www.w3schools.com/css/css_syntax.asp" target="_blank">CSS Syntax</a>
 * Whats going on?
 	* How is the word 'Catster' getting sytled? 
 	* How are voting buttons being colored
 	* Where the images coming from?
 * Lets look at the <a href="https://developer.chrome.com/devtools" target="_blank">Chrome Inspector Tool</a>
-
+	* What if you want to be on the <a href="http://www.forbes.com/30under30/#/venture-capital" target="_blank">Forbes 30 under 30 list?</a> 	
+<br>
+* Notice the Voting button have squares
+	* Copy in the files from the 'fonts' folder (similiar to 'css' folder) and refresh
+<br><br>
 * But more importantly...	 
 <a href="https://www.youtube.com/embed/9iafa959JvY" target="_blank"><img src="http://static5.businessinsider.com/image/55ad435f371d22472c8b5c13/why-gif-should-be-pronounced-giff-and-not-jiff.jpg"></a>
 
