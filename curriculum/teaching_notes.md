@@ -109,5 +109,6 @@
 * Git
 * Sublime Text
 * Pry
+* Ruby
 * Rails
 * Heroku

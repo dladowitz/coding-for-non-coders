@@ -104,12 +104,20 @@
 	* Add 'Hello World' to the file and then open with the Chrome browser  
 * Create folders named 'css', 'fonts', 'images', and 'js'
 * Delete the text 'Hello World' from Working site index.html file
+* Copy the html from <a href="http://www.w3schools.com/html/html_intro.asp" target="_blank">http://www.w3schools.com/html/html_intro.asp</a> into index.html and refresh your chrome browser
+	* What is a Tag?
+	* What is the head tag doing?
+	* What is the body tag doing?
+	* How would be create a link?
+<br>
+<br>
 * Copy contents of <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/static_site/index.html" target="_blank">index.html in the Resource site</a> to the index.html file in the Working working site.
 	* Hint: use the 'raw button' to make it easier to copy 
 * Refresh the browser. What's going on?
 	 * Why is some text bigger?
 	 * Why are some underlined
 	 * Why are some buttons
+
 	 
 <br>
 
