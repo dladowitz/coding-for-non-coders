@@ -104,7 +104,7 @@
 	* Add 'Hello World' to the file and then open with the Chrome browser  
 * Create folders named 'css', 'fonts', 'images', and 'js'
 * Delete the text 'Hello World' from Working site index.html file
-* Copy the html from <a href="http://www.w3schools.com/html/html_intro.asp" target="_blank">http://www.w3schools.com/html/html_intro.asp</a> into index.html and refresh your chrome browser
+* Copy the html from <a href="http://www.w3schools.com/html/html_intro.asp" target="_blank">www.w3schools.com/html/html_intro</a> into index.html and refresh your chrome browser
 	* What is a Tag?
 	* What is the head tag doing?
 	* What is the body tag doing?
