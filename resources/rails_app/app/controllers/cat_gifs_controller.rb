@@ -5,6 +5,7 @@ class CatGifsController < ApplicationController
   # GET /cat_gifs.json
   def index
     @cat_gifs = CatGif.all
+    @cat_gifs = @cat_gifs.order(:id)
 
     # User for API's later
     # get_reddit_cats
