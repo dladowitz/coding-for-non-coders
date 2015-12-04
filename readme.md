@@ -110,7 +110,7 @@
 	* What is the body tag doing?
 	* How would be create a link?
 <br>
-<br>
+
 * Copy contents of <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/static_site/index.html" target="_blank">index.html in the Resource site</a> to the index.html file in the Working working site.
 	* Hint: use the 'raw button' to make it easier to copy 
 * Refresh the browser. What's going on?
