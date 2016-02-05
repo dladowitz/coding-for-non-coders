@@ -406,7 +406,7 @@ more
 * First we have to update the file called **Gemfile** (it will be at the root of your app)
 	* Copy the code from <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/Gemfile" target="_blank">Gemfile on Github</a> to your app
 * Bundle the new gems
-	* In Terminal type **bundle install --without production**
+	* In Terminal type **sudo bundle install --without production**
 * Stop and start you local server
 	* In Terminal find the tab with the server logs. Press **CTRL+C** then restart the server with **rails server**
 * Go back to the other Termainl tab. Add and commit to git.
