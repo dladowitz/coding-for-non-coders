@@ -382,7 +382,7 @@ more
 
 #### ___E - Push to Github
 * In the Termminal add and commit to git
-	* **git add.**
+	* **git add .**
 	* **git commit -m "updating home page to be aweseome"**
 * Create a new repository on Github
 	* Go to <a href="https://github.com/new" target="_blank">github.com/new</a> and create a new repository
