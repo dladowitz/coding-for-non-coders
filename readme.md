@@ -344,7 +344,7 @@ more
 * Hmmmm, seems less awesome than before. Where did the cats go?
 * Looks like we need a bunch of CSS files. We'll use the two we created for the static site. 
 * We'll need to create two new files in app>assets>stylesheets (**bootstrap.css** and **business-frontpage.css**)
-* Then copy the code from <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/assets/stylesheets/bootstrap.css" target=_"blank">bootstrap.css on github</a> and <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/assets/stylesheets/business-frontpage.css" target=_"blank">business-frontpage.css on github</a> into each file respectively.  
+* Then copy the code from <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/rails_app/app/assets/stylesheets/bootstrap.css" target=_"blank">bootstrap.css on github</a> and <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/rails_app/app/assets/stylesheets/business-frontpage.css" target=_"blank">business-frontpage.css on github</a> into each file respectively.  
 
 
 #### Now refresh the page. 
