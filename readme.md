@@ -302,7 +302,7 @@ more
 	* **git add .**
 	* **git commit -m "first commit"**
 * Open the app in Sublime Text so we can look at it. 
-	* **subl .**
+	* Open Sublime Text. Then got to ** File > Open ** and navagate to **~/Documents/repositories**. Select ** catster_app ** and press open.
 	* If this doesn't work use OSX Spotlight to open Sublime Text. Then got to File>Open and find folder in Documents/repos/catster_app
 * Start the app
 	* 	**rails server**
