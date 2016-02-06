@@ -327,7 +327,7 @@ more
 * Make the actual GiF show up
 	* Find the file that controls the HTML on this page (app>views>cat_gifs>index.html.erb)
 	* Find the line that currently adds the url to the screen. It's probably on line 19 and it looks like this: **<td><%= cat_gif.url %></td>**
-	* Replace it with this: **<td><%= image_tag(cat_gif.url, size: "200x200") %></td>**
+	* Replace it with this: **\<td><%= image_tag(cat_gif.url, size: "200x200") %>\</td>**
 * Refresh the browser. What happened?
 
 <br>
