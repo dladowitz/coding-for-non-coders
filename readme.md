@@ -93,7 +93,7 @@
 	* **git init**
 * Open Sublime text so you are have **catster_static** files on the left 
 	* Open the app in Sublime Text so we can look at it. 
-	* Use spotlight to open Sublime Text. Then got to **File > Open** and navagate to **~/Documents/repositories**. Select **catster_app** and press open.
+	* Use spotlight to open Sublime Text. Then got to **File > Open** and navagate to **~/Documents/repositories**. Select **catster_static** and press open.
 
 #### ___B - HTML & Strucutre
 * We are going to recreate <a href="https://github.com/dladowitz/coding-for-non-coders/tree/master/resources/static_site" target="_blank">resources > static-site</a>. 
