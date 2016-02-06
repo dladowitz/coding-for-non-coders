@@ -338,9 +338,9 @@ more
 #### ___C -  Make the CatGifs page Awesome
 * Ok more awesome, but not awesome enough. Lets step it up. 
 * Overwrite app>views>cat_gifs>index.html.erb with new code.
-	* You can <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/views/cat_gifs/index.html.erb" target="_blank">find the new index.html.erb code here on github</a>
+	* You can <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/rails_app/app/views/cat_gifs/index.html.erb" target="_blank">find the new index.html.erb code here on github</a>
 * Also overwrite app>controllers>cat_gifs_controller.rb
-	* You can <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/app/controllers/cat_gifs_controller.rb" target="_blank">find cat_gifs_controller.rb here on github</a>
+	* You can <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/rails_app/app/controllers/cat_gifs_controller.rb" target="_blank">find cat_gifs_controller.rb here on github</a>
 * Hmmmm, seems less awesome than before. Where did the cats go?
 * Looks like we need a bunch of CSS files. We'll use the two we created for the static site. 
 * We'll need to create two new files in app>assets>stylesheets (**bootstrap.css** and **business-frontpage.css**)
