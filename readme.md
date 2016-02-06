@@ -81,10 +81,6 @@
 	* **mkdir repositories**
 * change into the directory called 'repos'
 	* **cd repositories**
-* clone a repo from Gitub (this holds resources we'll need for the class)
-	* **git clone <a href="https://github.com/dladowitz/coding-for-non-coders.git" target="_blank">https://github.com/dladowitz/coding-for-non-coders.git</a>** 
-* Look at the contents of the directory	
-	* **ls coding-for-non-coders**
 * make a directory called 'catster_static' (this is the frst site we'll create)
 	* **mkdir catster_static**
 * Change into the 'catster_static' directory	
@@ -150,7 +146,7 @@
 <br>
 
 #### ___D - Javascript & JQuery
-* Use finder to copy the files in the 'js' folder from the Resource site to the Working site
+* Create and copy the files in the <a href="https://github.com/dladowitz/coding-for-non-coders/tree/master/resources/static_site/js" target="_blank">'js' folder from the Resource site</a> to the Working site
 * Look at the voting buttons
 * Notice that votes aren't saved when the browser is refreshed. Why not? What do we need? 
 
