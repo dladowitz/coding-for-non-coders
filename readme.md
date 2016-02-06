@@ -124,6 +124,8 @@
 
 
 #### ___C - CSS
+* In your Working site create two files inside the css folder, **bootstrap.css** and **business-frontpage.css**. 
+* Copy the contents of <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/static_site/css/bootstrap.css" target="_blank">bootstrap.css</a> and <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/static_site/css/business-frontpage.css" target="_blank">business-frontpage.css</a> into thier respecive files.
 * Use finder to copy the two files in the 'css' folder of the Resource site into the 'css' folder of your Working site
 	*  Hint: Open two finder windows if you are getting confused about which folder you are in 
 * Refresh the browser
