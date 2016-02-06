@@ -25,6 +25,10 @@ hr {
     margin: 40px;
 }
 
+a:visited {
+    color: white !important;
+}
+
 /*Cat Gifs Index Page*/
 .all-cats {
   margin-bottom: 100px;
