@@ -405,7 +405,7 @@ more
 
 #### ___F - Deploy to Heroku
 * First we have to update the file called **Gemfile** (it will be at the root of your app)
-	* Copy the code from <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/Gemfile" target="_blank">Gemfile on Github</a> to your app
+	* Copy the code from <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/rails_app/Gemfile" target="_blank">Gemfile on Github</a> to your app
 * Bundle the new gems
 	* In Terminal type **sudo bundle install --without production**
 * Stop and start you local server
