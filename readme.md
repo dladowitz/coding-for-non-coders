@@ -125,11 +125,9 @@
 
 #### ___C - CSS
 * In your Working site create two files inside the css folder, **bootstrap.css** and **business-frontpage.css**. 
-* Copy the contents of <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/static_site/css/bootstrap.css" target="_blank">bootstrap.css</a> and <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/static_site/css/business-frontpage.css" target="_blank">business-frontpage.css</a> into thier respecive files.
-* Use finder to copy the two files in the 'css' folder of the Resource site into the 'css' folder of your Working site
-	*  Hint: Open two finder windows if you are getting confused about which folder you are in 
+* Copy the contents of <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/static_site/css/bootstrap.css" target="_blank">bootstrap.css</a> and <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/static_site/css/business-frontpage.css" target="_blank">business-frontpage.css</a> into their respecive files.
 * Refresh the browser
-* Also copy the file in the images folder 'dusty_wide_dark_2.jpg'
+* Open the image <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/static_site/images/dusty_wide_dark_2.jpg" target="_blank">dusty_wide_dark_2.jpg</a>. Right click and **Save Image As** into **~/Documents/repositories/catster_static/images**
 * Refresh the browser
 * What is going on?
 	* How did the index.html file even know about these new CSS files?
