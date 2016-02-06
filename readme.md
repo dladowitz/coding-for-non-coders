@@ -112,7 +112,7 @@
 <br>
 <br>
 
-* Copy contents of <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/static_site/index.html" target="_blank">index.html in the Resource site</a> to the index.html file in the Working working site.
+* Copy contents of <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/static_site/index.html" target="_blank">index.html in the Resource site</a> to the index.html file in the Working working site.
 	* Hint: use the 'raw button' to make it easier to copy 
 	* Refresh the browser. What's going on?
 		* Why is some text bigger?
