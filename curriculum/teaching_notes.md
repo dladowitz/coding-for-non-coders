@@ -1,17 +1,22 @@
 ## Teaching Notes
 
 ### Set Admin Rights
-* For class, Kenny made bavc18 user an admin
-* removed admin privileges after class
-* This is because installing gems needs admin access 
+* For class, Kenny sets up a user as admin for gems and file permissions (last time was bavc17)
+* Remind him to not delete user after monthly computer wipes. Possibly we set up a new user that persists (not named bavc + number)
+* Needs to remove admin privileges after class
+
+#### OSX Settings
+* Verify Xcode 'agree' requirement isn't causing issues with git 
+* Verify Heroku is installed (may need toolbelt)
 
 ### Set Ruby
 * Add ~/.bash_profile
 * include `rvm use 2.2.1`
 
-### Problem Areas to Verify
+### Problem Areas to Verify in Curriculum
 * Section A - Rails New
 * Section F - Bundling new gems
+_______________________________________________________________________________________
 
 ### Introduction
 * Who is teaching
