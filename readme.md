@@ -309,7 +309,7 @@ more
 	
 #### ___B - Add Cat Gifs
 * Go back to your terminal and we'll create a cat gif (make sure you are not in the tab showing server logs)
-	* **rails generate scaffold CatGifs title:string url:string score:integer**
+	* **rails generate scaffold CatGif title:string url:string score:integer**
 	* **rails generate scaffold Signup email_address:string**
 * Update the SQL Database
 	* **rake db:migrate**
