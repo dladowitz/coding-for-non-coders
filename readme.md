@@ -419,7 +419,8 @@ more
 * Update the database on Heroku
 	* In the terminal type **heroku run rake db:migrate** 
 * View on heroku
-	* In the Terminal type **heroku open** and a browser will open to your app (note, if you get a broken page add `/cat_gifs` to the end of the url in the address bar)
+	* In the Terminal type **heroku open** and a browser will open to your app 
+	* If you get a broken page add `/cat_gifs` to the end of the url in the address bar
 
 Scroll down
 <br>
