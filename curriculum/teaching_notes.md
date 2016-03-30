@@ -9,6 +9,9 @@
 * Add ~/.bash_profile
 * include `rvm use 2.2.1`
 
+### Problem Areas to Verify
+* Section A - Rails New
+* Section F - Bundling new gems
 
 ### Introduction
 * Who is teaching
