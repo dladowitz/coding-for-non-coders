@@ -3,7 +3,12 @@
 ### Set Admin Rights
 * For class, Kenny made bavc18 user an admin
 * removed admin privileges after class
-* This is because installing gems needs admin access
+* This is because installing gems needs admin access 
+
+### Set Ruby
+* Add ~/.bash_profile
+* include `rvm use 2.2.1`
+
 
 ### Introduction
 * Who is teaching
