@@ -1,4 +1,10 @@
 ## Teaching Notes
+
+### Set Admin Rights
+* For class, Kenny made bavc18 user an admin
+* removed admin privileges after class
+* This is because installing gems needs admin access
+
 ### Introduction
 * Who is teaching
 * My Background
