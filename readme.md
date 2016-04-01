@@ -314,9 +314,9 @@ more
 * Update the SQL Database
 	* **rake db:migrate**
 * Go look at the CatGifs page in the Chrome browser
-	* go to 'localhost:3000/cat_gifs'
+	* go to <a href="http://localhost:3000/cat_gifs" target=_"blank">localhost:3000/cat_gifs</a>
 	* click on the 'New Cat Gif' link. 
-	* Find a cat gif url and add a title. Leave the score alone for now. 
+	* Find a cat gif on the internet. Copy the url. Add the url and a title to your new cat gif. Leave the score alone for now. Click 'Create Cat gif'.
 	* Click on 'Back' and create a second one. 
 	* Click on 'Back' and view the CatGif page. Its neat, but still not that awesome. 
 * Make the actual GiF show up
@@ -355,20 +355,20 @@ more
 * Lets talk about the MVC Pattern first (Model View Controller)
 ![](http://betterexplained.com/wp-content/uploads/rails/mvc-rails.png)
 
-* Go look at whats in the current SQL database. Either by sqlitebrowser or the console. 
+* Go look at what is in the current SQL database. Either by sqlitebrowser or the console. 
 
 <br>
 
 #### ___D -  Make voting work (and fix the homepage)
-* Try going to 'localhost:3000'
-* Go back to 'localhost:3000/cat_gifs' and try to UpVote or DownVote a gif
+* Try going to <a href="http://localhost:3000" target=_"blank">localhost:3000</a>
+* Go back to <a href="http://localhost:3000/cat_gifs" target=_"blank">localhost:3000/cat_gifs</a> and try to UpVote or DownVote a gif
 <br>
 
 * We need to update the routes file (config>routes.rb) with a new code. 
 	* <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/rails_app/config/routes.rb" target=_"blank">find the new routes.rb on github</a> 
 * Now refresh and try voting on the homepage. 
 * Lets fix the missing arrows on the voting buttons. 
-	* Inside the **public** folder create a new folder called **fonts**
+	* Inside the **catster_app > public** folder create a new folder called **fonts**
 		* The **public** folder is that the root of you app.  
 	* Go to <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/rails_app/public/fonts/glyphicons-halflings-regular.woff" target=_"blank">glyphicons-halflings-regular.woff on github</a> 
 	* Click on "View Raw" and save to **public>fonts**
@@ -378,7 +378,7 @@ more
 #### ___E - Push to Github
 * In the Termminal add and commit to git
 	* **git add .**
-	* **git commit -m "updating home page to be aweseome"**
+	* **git commit -m "updating home page to be awesome"**
 * Create a new repository on Github
 	* Go to <a href="https://github.com/new" target="_blank">github.com/new</a> and create a new repository
 	* Name is something like **catster_app** (maybe use your name)
