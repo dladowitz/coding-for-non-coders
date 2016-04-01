@@ -36,8 +36,8 @@
 
 ### 3. Git & Github
 * <a href="http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1" target="_blank">What is Git</a>
-	*  A version control and collaboration tool 
-	* "A foolish or worthless person" - Merriam Webster	 	
+	* A version control tool
+	* A collaboration tool 	 	
 * <a href="https://github.com/" target="_blank">What is GitHub</a>
 	* Storage / Backup
 	* Collaboration
