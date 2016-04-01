@@ -104,7 +104,7 @@
 	* What is a Tag?
 	* What is the head tag doing?
 	* What is the body tag doing?
-	* How would be create a link?
+	* How would we create a link?
 <br>
 <br>
 
