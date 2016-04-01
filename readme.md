@@ -111,8 +111,8 @@
 * Copy contents of <a href="https://raw.githubusercontent.com/dladowitz/coding-for-non-coders/master/resources/static_site/index.html" target="_blank">index.html in the Resource site</a> to the index.html file in the Working working site.
 	* Refresh the browser. What's going on?
 		* Why is some text bigger?
-		* Why are some text underlined
-		* Why are some text in buttons
+		* Why is some text underlined
+		* Why is some text in buttons
 
 	 
 <br>
