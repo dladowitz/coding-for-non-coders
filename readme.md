@@ -139,7 +139,12 @@
 <br>
 * Notice the Voting button have squares
 	* Copy in the files from the 'fonts' folder (similiar to 'css' folder) and refresh
+	* Go to <a href="https://github.com/dladowitz/coding-for-non-coders/blob/master/resources/static_site/fonts/glyphicons-halflings-regular.woff">glyphicons-halflings-regular.woff on github</a>
+	* Click on "View Raw" and save to the 'fonts' folder
 <br><br>
+
+ 
+
 * But more importantly...	 
 <a href="https://www.youtube.com/embed/9iafa959JvY" target="_blank"><img src="http://static5.businessinsider.com/image/55ad435f371d22472c8b5c13/why-gif-should-be-pronounced-giff-and-not-jiff.jpg"></a>
 
